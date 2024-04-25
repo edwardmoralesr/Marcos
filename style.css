@@ -4,10 +4,12 @@
 }
 
 :root {
+  font-family: Inter, system-ui, Avenir, Arial, Helvetica, sans-serif;
   --dkClr: #181818;
   --liClr: whitesmoke;
   --accClr: #0D0D35;
   --fontClr: 'ARCADE_N';
+  --gldClr: #FFC90E;
 }
 
 * {

@@ -8,6 +8,7 @@ class Home extends Phaser.Scene {
     }
 
     preload() {
+
         this.load.audio('sound', '/assets/audio/melody_principal.mp3');
         this.load.image("bg", "/assets/images/background_init.png");
 
@@ -17,7 +18,13 @@ class Home extends Phaser.Scene {
         this.load.image("modeH", "/assets/images/Dificil.png");
         this.load.image("exit", "/assets/images/Salir.png");
 
-        this.load.image("marcos", "/assets/images/Marcos Right 0.png");
+        this.load.image("marcos0r", "/assets/images/Marcos Right 0.png");
+        this.load.image("marcos1r", "/assets/images/Marcos Right 1.png");
+        this.load.image("marcos2r", "/assets/images/Marcos Right 2.png");
+
+        this.load.image("marcos0l", "/assets/images/Marcos Left 0.png");
+        this.load.image("marcos1l", "/assets/images/Marcos Left 1.png");
+        this.load.image("marcos2l", "/assets/images/Marcos Left 2.png");
     }
 
     create() {
@@ -43,19 +50,16 @@ class Home extends Phaser.Scene {
         this.mode = this.add.image(0, 0, "modeE").setInteractive();
         this.exit = this.add.image(0, 0, "exit").setInteractive();
 
-        this.play.setDisplaySize(100, 50);
-        this.play.setOrigin(-1.25, -4.1);
+        this.play.setDisplaySize(130, 65);
+        this.play.setOrigin(-1.09, -4.1);
 
-        this.mode.setDisplaySize(100, 50);
-        this.mode.setOrigin(-1.25, -6.3);
+        this.mode.setDisplaySize(130, 65);
+        this.mode.setOrigin(-1.09, -6.3);
 
-        this.exit.setDisplaySize(100, 50);
-        this.exit.setOrigin(-1.25, -8.5);
+        this.exit.setDisplaySize(130, 65);
+        this.exit.setOrigin(-1.09, -8.5);
 
-        //Marcos
-        this.player = this.physics.add.image(0, 100, "marcos")
-        this.player.setDisplaySize(100, 100);
-        this.player.setOrigin(0, -4.1);
+        this.runPlayerRight();
 
         var now = this;
 
@@ -73,8 +77,76 @@ class Home extends Phaser.Scene {
                 }
             });
         });
+
     }
     update() { }
+
+    runPlayerRight() {
+
+        this.playerR = this.add.sprite(-400, 100, "marcos0r")
+        this.playerR.setDisplaySize(150, 150);
+        this.playerR.setOrigin(0, -3.66);
+
+        this.anims.create({
+            key: 'characterAnimationR',
+            frames: [
+                { key: 'marcos0r' },
+                { key: 'marcos1r' },
+                { key: 'marcos2r' }
+            ],
+            frameRate: 5,
+            repeat: -1 // -1 loop eterno
+        });
+
+        this.playerR.play('characterAnimationR');
+
+        var now = this;
+
+        this.tweens.add({
+            targets: this.playerR,
+            x: 800,
+            duration: 4000,
+            ease: 'Linear',
+            repeat: 0, // 0 no se repite
+            onComplete: function () {
+                now.runPlayerLeft();
+            }
+        });
+    }
+
+
+    runPlayerLeft() {
+
+        this.playerL = this.add.sprite(800, 100, "marcos0l")
+        this.playerL.setDisplaySize(150, 150);
+        this.playerL.setOrigin(0, -3.66);
+
+        this.anims.create({
+            key: 'characterAnimationL',
+            frames: [
+                { key: 'marcos0l' },
+                { key: 'marcos1l' },
+                { key: 'marcos2l' }
+            ],
+            frameRate: 5,
+            repeat: -1 // -1 loop eterno
+        });
+
+        this.playerL.play('characterAnimationL');
+
+        var now = this;
+
+        this.tweens.add({
+            targets: this.playerL,
+            x: -400,
+            duration: 4000,
+            ease: 'Linear',
+            repeat: 0, // 0 no se repite
+            onComplete: function () {
+                now.runPlayerRight();
+            }
+        });
+    }
 }
 
 export default Home
