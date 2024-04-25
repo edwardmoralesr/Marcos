@@ -4,5 +4,6 @@ var ENV = {
     MSJ: 'Hive Works!',
     FONT: 'ARCADE_N',
     FONT_URL: 'url(./public/assets/fonts/ARCADE_N.ttf)',
-    FONT_COLOR: '#FFC90E'
+    FONT_COLOR: '#FFC90E',
+    LEVEL: 'E'
 };

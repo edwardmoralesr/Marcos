@@ -61,9 +61,16 @@ class Home extends Phaser.Scene {
 
         this.runPlayerRight();
 
+        this.setLevel(-1);
+
         var now = this;
 
-        //Button Exit Modal         
+        //Button Level         
+        this.mode.on('pointerdown', () => {
+            now.setLevel(ENV.LEVEL);
+        });
+
+        //Button Exit         
         this.exit.on('pointerdown', () => {
             now.infoModal = {
                 msj: '¿Quieres salir del juego?',
@@ -146,6 +153,23 @@ class Home extends Phaser.Scene {
                 now.runPlayerRight();
             }
         });
+    }
+
+    setLevel(level) {
+        switch (level) {
+            case 'E':
+                ENV.LEVEL = 'N';
+                break;
+            case 'N':
+                ENV.LEVEL = 'H';
+                break;
+            default:
+                ENV.LEVEL = 'E';
+                break;
+        }
+        this.add.image(0, 0, 'mode' + ENV.LEVEL).setVisible(true)
+            .setOrigin(-1.09, -6.3)
+            .setDisplaySize(130, 65);
     }
 }
 
