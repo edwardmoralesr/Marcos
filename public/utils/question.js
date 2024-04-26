@@ -6,7 +6,42 @@ class Question extends Phaser.Scene {
         super({ key: 'Question', active: false });
     }
 
-    randomQuestion() {
+    sendQuestion(page) {
+        var q = this.randomQuestion(page.scene.key);
+        var random = Phaser.Math.RND.between(0, 1);
+
+        var now = page;
+        var more = this;
+        setTimeout(function () {
+            now.infoModal = {
+                question: q.txtQuestion,
+                optionOne: random == 0 ? q.d : q.e,
+                optionTwo: random == 0 ? q.e : q.d,
+                yQ: 2.1,
+                hQ: 0.5,
+                xA: 0.7,
+                yA: 0.1,
+            }
+            now.modal = now.scene.get('Modal');
+            now.modal.getQuestionModal(now).then(response => {
+                if (response == q.d) {
+                    now.soundPoint.play();
+                    more.sendQuestion(now);
+                } else {
+                    now.modal.getGameOverModal(now).then(response => {
+                        if (response) {
+                            more.sendQuestion(now);
+                        } else {
+                            now.scene.start('Home');
+                        }
+                    });
+                }
+            });
+        }, 2000)
+    }
+
+    randomQuestion(page) {
+        this.rootPage = page;
         var random = Phaser.Math.RND.between(0, 1)
 
         return random == 0 ? this.mathQuestion() : this.customQuestion();
@@ -44,18 +79,28 @@ class Question extends Phaser.Scene {
             a,
             b,
             d,
-            e,
+            e: (d == e ? e + 1 : e),
             txtQuestion: '¿' + a.toString() + (randomOp1 == '*' ? ' x ' : ' / ') + b.toString() + '?'
         });
     }
 
     customQuestion() {
-        var res = {
-            txtQuestion: '¿Capital de Colombia?',
-            d: 'Bogotá',
-            e: 'Lima'
-        }
-        return res;
+        var keys = '';
+        var num = 0;
+        var res = {};
+
+        keys = Object.keys(ENV.KNOWLEDGE.knowledge);
+        num = Phaser.Math.RND.between(1, keys.length);
+
+        var q = ENV.KNOWLEDGE.knowledge['Q' + num];
+
+        return (q.a == ENV.LEVEL && q.b == this.rootPage ? res = {
+            a: q.a,
+            b: q.b,
+            d: q.d,
+            e: q.e,
+            txtQuestion: q.c
+        } : this.customQuestion());
     }
 }
 

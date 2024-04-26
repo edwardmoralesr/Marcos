@@ -2,15 +2,465 @@
     "knowledge": {
         "Q1": {
             "a": "E",
-            "txtQuestion": "¿Capital de Colombia?",
+            "b": "Sleeper",
+            "c": "¿Capital de Colombia?",
             "d": "Bogotá",
             "e": "Lima"
         },
         "Q2": {
             "a": "E",
-            "txtQuestion": "¿Capital de España?",
+            "b": "Sleeper",
+            "c": "¿Capital de España?",
             "d": "Madrid",
             "e": "Roma"
+        },
+        "Q3": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Capital de Perú?",
+            "d": "Lima",
+            "e": "Bogotá"
+        },
+        "Q4": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Amarillo en inglés?",
+            "d": "Yellow",
+            "e": "Red"
+        },
+        "Q5": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Rojo en inglés?",
+            "d": "Red",
+            "e": "Blue"
+        },
+        "Q6": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Blanco en inglés?",
+            "d": "White",
+            "e": "Black"
+        },
+        "Q7": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Perro en inglés?",
+            "d": "Dog",
+            "e": "Cat"
+        },
+        "Q8": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Gato en inglés?",
+            "d": "Cat",
+            "e": "Dog"
+        },
+        "Q9": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Gallina en inglés?",
+            "d": "Hen",
+            "e": "Chicken"
+        },
+        "Q10": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Cocina en inglés?",
+            "d": "Kitchen",
+            "e": "Chicken"
+        },
+        "Q11": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Hijos en inglés?",
+            "d": "Children",
+            "e": "Sons"
+        },
+        "Q12": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Canción en inglés?",
+            "d": "Song",
+            "e": "Sing"
+        },
+        "Q13": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Cantante en inglés?",
+            "d": "Singer",
+            "e": "Songer"
+        },
+        "Q14": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Capital de Brasil?",
+            "d": "Brasilia",
+            "e": "R.Janeiro"
+        },
+        "Q15": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Gris en ingles?",
+            "d": "Gray",
+            "e": "Green"
+        },
+        "Q16": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Verde en ingles?",
+            "d": "Green",
+            "e": "Gray"
+        },
+        "Q17": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Número primo",
+            "d": "11",
+            "e": "9"
+        },
+        "Q18": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Número primo",
+            "d": "7",
+            "e": "15"
+        },
+        "Q19": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Número primo",
+            "d": "13",
+            "e": "22"
+        },
+        "Q20": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Capital de Paraguay?",
+            "d": "Asunción",
+            "e": "Montevideo"
+        },
+        "Q21": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Capital de Alemania?",
+            "d": "Berlín",
+            "e": "Múnich"
+        },
+        "Q22": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Capital de Uruguay?",
+            "d": "Montevideo",
+            "e": "Asunción"
+        },
+        "Q23": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Capital de Bolivar?",
+            "d": "Cartagena",
+            "e": "B/quilla"
+        },
+        "Q24": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Capital de Vichada?",
+            "d": "P. Carreño",
+            "e": "Mitú"
+        },
+        "Q25": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Capital de Vaupés?",
+            "d": "Mitú",
+            "e": "Mocoa"
+        },
+        "Q26": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Capital de Arauca?",
+            "d": "Arauca",
+            "e": "Mocoa"
+        },
+        "Q27": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Capital de Francia?",
+            "d": "París",
+            "e": "Madrid"
+        },
+        "Q28": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Capital de Francia?",
+            "d": "París",
+            "e": "Madrid"
+        },
+        "Q29": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de China?",
+            "d": "Pekín",
+            "e": "Shanghái"
+        },
+        "Q30": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Canadá?",
+            "d": "Ottawa",
+            "e": "Toronto"
+        },
+        "Q31": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Australia?",
+            "d": "Camberra",
+            "e": "Sídney"
+        },
+        "Q32": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Austria?",
+            "d": "Viena",
+            "e": "Praga"
+        },
+        "Q33": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de R.Checa?",
+            "d": "Praga",
+            "e": "Budapest"
+        },
+        "Q34": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Turquía?",
+            "d": "Ankara",
+            "e": "Estambul"
+        },
+        "Q35": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Hungría?",
+            "d": "Budapest",
+            "e": "Praga"
+        },
+        "Q36": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Capital de Italia?",
+            "d": "Roma",
+            "e": "Milán"
+        },
+        "Q37": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Capital de Ecuador?",
+            "d": "Quito",
+            "e": "Lima"
+        },
+        "Q38": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Capital de Bolivia?",
+            "d": "La Paz",
+            "e": "Quito"
+        },
+        "Q39": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿50 Romano?",
+            "d": "L",
+            "e": "X"
+        },
+        "Q40": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿9 Romano?",
+            "d": "IX",
+            "e": "VIII"
+        },
+        "Q41": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿74 Romano?",
+            "d": "LXXIV",
+            "e": "LXXVII"
+        },
+        "Q42": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Capital de Ucrania?",
+            "d": "Kiev",
+            "e": "Praga"
+        },
+        "Q43": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Noruega?",
+            "d": "Oslo",
+            "e": "Berna"
+        },
+        "Q44": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Finlandia?",
+            "d": "Helsinki",
+            "e": "Oslo"
+        },
+        "Q45": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Polonia?",
+            "d": "Varsovia",
+            "e": "Praga"
+        },
+        "Q46": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Suecia?",
+            "d": "Estocolmo",
+            "e": "Praga"
+        },
+        "Q47": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Suiza?",
+            "d": "Berna",
+            "e": "Viena"
+        },
+        "Q48": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Pera en inglés?",
+            "d": "Pear",
+            "e": "Apple"
+        },
+        "Q49": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Manzana en inglés?",
+            "d": "Apple",
+            "e": "Orange"
+        },
+        "Q50": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Mora en inglés?",
+            "d": "Blackberry",
+            "e": "Strawberry"
+        },
+        "Q51": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Fresa en inglés?",
+            "d": "Strawberry",
+            "e": "Blackberry"
+        },
+        "Q52": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Piña en inglés?",
+            "d": "Pineapple",
+            "e": "Orange"
+        },
+        "Q53": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Copiar",
+            "d": "Ctrl+C",
+            "e": "Ctrl+V"
+        },
+        "Q54": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Cortar",
+            "d": "Ctrl+X",
+            "e": "Ctrl+C"
+        },
+        "Q55": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Pegar",
+            "d": "Ctrl+V",
+            "e": "Ctrl+X"
+        },
+        "Q56": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "Piedra",
+            "d": "Papel",
+            "e": "Tijera"
+        },
+        "Q57": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "Papel",
+            "d": "Tijera",
+            "e": "Piedra"
+        },
+        "Q58": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "Tijera",
+            "d": "Piedra",
+            "e": "Papel"
+        },
+        "Q59": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Piedra",
+            "d": "Papel",
+            "e": "Tijera"
+        },
+        "Q60": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Papel",
+            "d": "Tijera",
+            "e": "Piedra"
+        },
+        "Q61": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Tijera",
+            "d": "Piedra",
+            "e": "Papel"
+        },
+        "Q62": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Navegador Web",
+            "d": "Chrome",
+            "e": "Google"
+        },
+        "Q63": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Mamífero",
+            "d": "Ballena",
+            "e": "Tortuga"
+        },
+        "Q64": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Anfibio",
+            "d": "Rana",
+            "e": "Serpiente"
+        },
+        "Q65": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Reptil",
+            "d": "Iguana",
+            "e": "Anguila"
+        },
+        "Q66": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Cantidad de Cromosomas?",
+            "d": "46",
+            "e": "42"
         }
     }
 }
