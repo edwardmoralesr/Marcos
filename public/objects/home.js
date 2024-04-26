@@ -4,7 +4,6 @@ import Phaser from 'phaser'
 class Home extends Phaser.Scene {
     constructor() {
         super({ key: 'Home' });
-        this.player;
     }
 
     preload() {
@@ -33,6 +32,10 @@ class Home extends Phaser.Scene {
         sound.play({
             loop: true
         });
+
+        if (!ENV.SOUND) {
+            sound.stop();
+        }
 
         var imageGroup = this.add.group();
 
@@ -66,6 +69,12 @@ class Home extends Phaser.Scene {
         var now = this;
 
         //Button Level         
+        this.play.on('pointerdown', () => {
+            sound.stop();
+            now.scene.switch('Sleeper');
+        });
+
+        //Button Level         
         this.mode.on('pointerdown', () => {
             now.setLevel(ENV.LEVEL);
         });
@@ -84,7 +93,6 @@ class Home extends Phaser.Scene {
                 }
             });
         });
-
     }
     update() { }
 

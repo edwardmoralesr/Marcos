@@ -1,0 +1,16 @@
+{
+    "knowledge": {
+        "Q1": {
+            "a": "E",
+            "txtQuestion": "¿Capital de Colombia?",
+            "d": "Bogotá",
+            "e": "Lima"
+        },
+        "Q2": {
+            "a": "E",
+            "txtQuestion": "¿Capital de España?",
+            "d": "Madrid",
+            "e": "Roma"
+        }
+    }
+}

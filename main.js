@@ -2,6 +2,8 @@ import './style.css';
 import Phaser from 'phaser';
 import Home from './public/objects/home';
 import Modal from './public/objects/modal';
+import Sleeper from './public/objects/sleeper';
+import Question from './public/utils/question';
 
 class Main extends Phaser.Scene {
   constructor() {
@@ -11,9 +13,13 @@ class Main extends Phaser.Scene {
   preload() {
     this.load.image("ike", "/assets/images/background_IKE.png");
     this.load.image("bl", "/assets/images/blbackground.png");
+
+    this.load.json('knowledge', '/utils/knowledge.json');
   }
 
   create() {
+    ENV.KNOWLEDGE = this.cache.json.get('knowledge');
+
     var imageGroup = this.add.group();
 
     var screenWidth = this.sys.game.config.width;
@@ -51,7 +57,7 @@ class Main extends Phaser.Scene {
       });
     });
     setTimeout(function () {
-      scene.scene.switch('Home');
+      scene.scene.start('Home');
     }, 5000)
     console.log(ENV.MSJ);
   }
@@ -68,7 +74,7 @@ const config = {
   physics: {
     default: "arcade"
   },
-  scene: [Main, Modal, Home]
+  scene: [Main, Modal, Home, Sleeper, Question]
 }
 
 const game = new Phaser.Game(config)

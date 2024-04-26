@@ -5,5 +5,7 @@ var ENV = {
     FONT: 'ARCADE_N',
     FONT_URL: 'url(./public/assets/fonts/ARCADE_N.ttf)',
     FONT_COLOR: '#FFC90E',
-    LEVEL: 'E'
+    LEVEL: 'E',
+    SOUND: true,
+    KNOWLEDGE: {}
 };
