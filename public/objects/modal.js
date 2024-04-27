@@ -23,9 +23,9 @@ class Modal extends Phaser.Scene {
 
             pScene.modalFrame = pScene.add.rectangle(modalX + modalWidth / 2, (modalY + modalHeight / 2) * 1.08, modalHeight * 0.9, modalWidth * 1.14, 0x000);
 
-            pScene.modalText = pScene.add.text(modalX + modalWidth / 2, (modalY + modalHeight / 2) * 0.9, pScene.infoModal.msj, { fontSize: '23.5px', fill: ENV.FONT_COLOR }).setOrigin(0.5);
+            pScene.modalText = pScene.add.text(modalX + modalWidth / 2, (modalY + modalHeight / 2) * 0.9, pScene.infoModal.msj, { fontStyle: 'bolder', fontSize: '23.5px', fill: ENV.FONT_COLOR }).setOrigin(0.5);
 
-            pScene.confirmModalButton = pScene.add.text((modalX + modalWidth / 2) - (modalX * 0.75), modalY + modalHeight * 0.58, pScene.infoModal.confirm, { fontSize: '27px', fill: ENV.FONT_COLOR })
+            pScene.confirmModalButton = pScene.add.text((modalX + modalWidth / 2) - (modalX * 0.75), modalY + modalHeight * 0.58, pScene.infoModal.confirm, { fontStyle: 'bolder', fontSize: '27px', fill: ENV.FONT_COLOR })
                 .setOrigin(0.5)
                 .setInteractive()
                 .on('pointerdown', () => {
@@ -38,7 +38,7 @@ class Modal extends Phaser.Scene {
                     resolve(true);
                 });
 
-            pScene.closeModalButton = pScene.add.text((modalX + modalWidth / 2) + (modalX * 0.75), modalY + modalHeight * 0.58, pScene.infoModal.back, { fontSize: '27px', fill: ENV.FONT_COLOR })
+            pScene.closeModalButton = pScene.add.text((modalX + modalWidth / 2) + (modalX * 0.75), modalY + modalHeight * 0.58, pScene.infoModal.back, { fontStyle: 'bolder', fontSize: '27px', fill: ENV.FONT_COLOR })
                 .setOrigin(0.5)
                 .setInteractive()
                 .on('pointerdown', () => {
@@ -50,7 +50,6 @@ class Modal extends Phaser.Scene {
 
                     resolve(false);
                 });
-            //})
         });
     }
 
@@ -69,7 +68,7 @@ class Modal extends Phaser.Scene {
             pScene.modalBackground = pScene.add.rectangle(modalX + modalWidth / 2, (modalY + modalHeight / 2) * 1.08, modalHeight * 0.93, modalWidth * 1.2, 0x000, 0.5);
             pScene.modalFrame = pScene.add.rectangle(modalX + modalWidth / 2, (modalY + modalHeight / 2) * 1.08, modalHeight * 0.9, modalWidth * 1.14, 0x000);
 
-            pScene.modalText = pScene.add.text(modalX + modalWidth / 2, ((modalY + modalHeight / 2) * 0.51) * pScene.infoModal.yQ, pScene.infoModal.question, { fontSize: '23.5px', fill: ENV.FONT_COLOR }).setOrigin(0.5);
+            pScene.modalText = pScene.add.text(modalX + modalWidth / 2, ((modalY + modalHeight / 2) * 0.51) * pScene.infoModal.yQ, pScene.infoModal.question, { fontStyle: 'bolder', fontSize: '23.5px', fill: ENV.FONT_COLOR }).setOrigin(0.5);
 
             pScene.modalBackgroundOpOne = pScene.add.rectangle((modalX + modalWidth / 2) * 0.5, (modalY + modalHeight / 2) * (7.45 * pScene.infoModal.yA), modalHeight * 0.42, modalWidth * 0.5, 0x000, 0.5);
             pScene.modalFrameOpOne = pScene.add.rectangle((modalX + modalWidth / 2) * 0.5, (modalY + modalHeight / 2) * (7.45 * pScene.infoModal.yA), modalHeight * 0.4, modalWidth * 0.4, 0x000);
@@ -77,7 +76,7 @@ class Modal extends Phaser.Scene {
             pScene.modalBackgroundOpTwo = pScene.add.rectangle((modalX + modalWidth / 2) * 1.5, (modalY + modalHeight / 2) * (7.45 * pScene.infoModal.yA), modalHeight * 0.42, modalWidth * 0.5, 0x000, 0.5);
             pScene.modalFrameOpTwo = pScene.add.rectangle((modalX + modalWidth / 2) * 1.5, (modalY + modalHeight / 2) * (7.45 * pScene.infoModal.yA), modalHeight * 0.4, modalWidth * 0.4, 0x000);
 
-            pScene.optionOneModalButton = pScene.add.text((modalX + modalWidth / 2) - (modalX * pScene.infoModal.xA), modalY + modalHeight * pScene.infoModal.yA, pScene.infoModal.optionOne, { fontSize: '27px', fill: ENV.FONT_COLOR })
+            pScene.optionOneModalButton = pScene.add.text((modalX + modalWidth / 2) - (modalX * pScene.infoModal.xA), modalY + modalHeight * pScene.infoModal.yA, pScene.infoModal.optionOne, { fontStyle: 'bolder', fontSize: '27px', fill: ENV.FONT_COLOR })
                 .setOrigin(0.5)
                 .setInteractive()
                 .on('pointerdown', () => {
@@ -95,7 +94,7 @@ class Modal extends Phaser.Scene {
                     resolve(pScene.infoModal.optionOne);
                 });
 
-            pScene.optionTwoModalButton = pScene.add.text((modalX + modalWidth / 2) + (modalX * pScene.infoModal.xA), modalY + modalHeight * pScene.infoModal.yA, pScene.infoModal.optionTwo, { fontSize: '27px', fill: ENV.FONT_COLOR })
+            pScene.optionTwoModalButton = pScene.add.text((modalX + modalWidth / 2) + (modalX * pScene.infoModal.xA), modalY + modalHeight * pScene.infoModal.yA, pScene.infoModal.optionTwo, { fontStyle: 'bolder', fontSize: '27px', fill: ENV.FONT_COLOR })
                 .setOrigin(0.5)
                 .setInteractive()
                 .on('pointerdown', () => {
@@ -112,7 +111,6 @@ class Modal extends Phaser.Scene {
 
                     resolve(pScene.infoModal.optionTwo);
                 });
-            //})
         });
     }
 
@@ -141,14 +139,13 @@ class Modal extends Phaser.Scene {
 
             pScene.modalFrame = pScene.add.rectangle(modalX + modalWidth / 2, (modalY + modalHeight / 2) * 1.08, modalHeight * 0.9, modalWidth * 1.14, 0x000);
 
-            pScene.modalGameOverText = pScene.add.text(modalX + modalWidth / 2, (modalY + modalHeight / 2) * 1.07, 'GAME OVER', { fontSize: '47.4px', fill: ENV.FONT_COLOR }).setOrigin(0.5);
+            pScene.modalGameOverText = pScene.add.text(modalX + modalWidth / 2, (modalY + modalHeight / 2) * 1.07, 'GAME OVER', { fontStyle: 'bolder', fontSize: '47.4px', fill: ENV.FONT_COLOR }).setOrigin(0.5);
 
             setTimeout(function () {
-                debugger;
                 pScene.modalGameOverText.setVisible(false);
-                pScene.modalText = pScene.add.text(modalX + modalWidth / 2, (modalY + modalHeight / 2) * 0.9, pScene.infoModal.msj, { fontSize: '23.5px', fill: ENV.FONT_COLOR }).setOrigin(0.5);
+                pScene.modalText = pScene.add.text(modalX + modalWidth / 2, (modalY + modalHeight / 2) * 0.9, pScene.infoModal.msj, { fontStyle: 'bolder', fontSize: '25.5px', fill: ENV.FONT_COLOR }).setOrigin(0.5);
 
-                pScene.confirmModalButton = pScene.add.text((modalX + modalWidth / 2) - (modalX * 0.75), modalY + modalHeight * 0.58, pScene.infoModal.confirm, { fontSize: '27px', fill: ENV.FONT_COLOR })
+                pScene.confirmModalButton = pScene.add.text((modalX + modalWidth / 2) - (modalX * 0.75), modalY + modalHeight * 0.58, pScene.infoModal.confirm, { fontStyle: 'bolder', fontSize: '27px', fill: ENV.FONT_COLOR })
                     .setOrigin(0.5)
                     .setInteractive()
                     .on('pointerdown', () => {
@@ -161,7 +158,7 @@ class Modal extends Phaser.Scene {
                         resolve(true);
                     });
 
-                pScene.closeModalButton = pScene.add.text((modalX + modalWidth / 2) + (modalX * 0.75), modalY + modalHeight * 0.58, pScene.infoModal.back, { fontSize: '27px', fill: ENV.FONT_COLOR })
+                pScene.closeModalButton = pScene.add.text((modalX + modalWidth / 2) + (modalX * 0.75), modalY + modalHeight * 0.58, pScene.infoModal.back, { fontStyle: 'bolder', fontSize: '27px', fill: ENV.FONT_COLOR })
                     .setOrigin(0.5)
                     .setInteractive()
                     .on('pointerdown', () => {
@@ -173,8 +170,6 @@ class Modal extends Phaser.Scene {
 
                         resolve(false);
                     });
-
-
             }, 2000)
         });
     }

@@ -271,21 +271,21 @@
             "b": "Sleeper",
             "c": "¿50 Romano?",
             "d": "L",
-            "e": "X"
+            "e": "M"
         },
         "Q40": {
             "a": "N",
             "b": "Sleeper",
-            "c": "¿9 Romano?",
-            "d": "IX",
-            "e": "VIII"
+            "c": "¿19 Romano?",
+            "d": "XXIX",
+            "e": "XIX"
         },
         "Q41": {
             "a": "H",
             "b": "Sleeper",
             "c": "¿74 Romano?",
             "d": "LXXIV",
-            "e": "LXXVII"
+            "e": "LXIV"
         },
         "Q42": {
             "a": "N",
@@ -389,43 +389,43 @@
             "a": "E",
             "b": "Sleeper",
             "c": "Piedra",
-            "d": "Papel",
-            "e": "Tijera"
+            "d": "Tijera",
+            "e": "Papel"
         },
         "Q57": {
             "a": "E",
             "b": "Sleeper",
             "c": "Papel",
-            "d": "Tijera",
-            "e": "Piedra"
+            "d": "Piedra",
+            "e": "Tijera"
         },
         "Q58": {
             "a": "E",
             "b": "Sleeper",
             "c": "Tijera",
-            "d": "Piedra",
-            "e": "Papel"
+            "d": "Papel",
+            "e": "Piedra"
         },
         "Q59": {
             "a": "N",
             "b": "Sleeper",
             "c": "Piedra",
-            "d": "Papel",
-            "e": "Tijera"
+            "d": "Tijera",
+            "e": "Papel"
         },
         "Q60": {
             "a": "N",
             "b": "Sleeper",
             "c": "Papel",
-            "d": "Tijera",
-            "e": "Piedra"
+            "d": "Piedra",
+            "e": "Tijera"
         },
         "Q61": {
             "a": "N",
             "b": "Sleeper",
             "c": "Tijera",
-            "d": "Piedra",
-            "e": "Papel"
+            "d": "Papel",
+            "e": "Piedra"
         },
         "Q62": {
             "a": "N",
@@ -461,6 +461,230 @@
             "c": "¿Cantidad de Cromosomas?",
             "d": "46",
             "e": "42"
+        },
+        "Q67": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "Piedra",
+            "d": "Tijera",
+            "e": "Papel"
+        },
+        "Q68": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "Papel",
+            "d": "Piedra",
+            "e": "Tijera"
+        },
+        "Q69": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "Tijera",
+            "d": "Papel",
+            "e": "Piedra"
+        },
+        "Q70": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿100 Romano?",
+            "d": "C",
+            "e": "M"
+        },
+        "Q71": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿99 Romano?",
+            "d": "XCIX",
+            "e": "LXIX"
+        },
+        "Q72": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Fichas en ajedréz?",
+            "d": "32",
+            "e": "28"
+        },
+        "Q73": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Centro del huevo?",
+            "d": "Yema",
+            "e": "Clara"
+        },
+        "Q74": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Tomate",
+            "d": "Fruta",
+            "e": "Verdura"
+        },
+        "Q75": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "Tomate",
+            "d": "Fruta",
+            "e": "Verdura"
+        },
+        "Q76": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Aguacate",
+            "d": "Fruta",
+            "e": "Verdura"
+        },
+        "Q77": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "Aguacate",
+            "d": "Fruta",
+            "e": "Verdura"
+        },
+        "Q78": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Rodea el centro del huevo?",
+            "d": "Clara",
+            "e": "Yema"
+        },
+        "Q79": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Segundos en una hora?",
+            "d": "3600",
+            "e": "6000"
+        },
+        "Q80": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Tres docenas?",
+            "d": "36",
+            "e": "30"
+        },
+        "Q81": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Tres decenas?",
+            "d": "30",
+            "e": "36"
+        },
+        "Q82": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Un siglo?",
+            "d": "100 años",
+            "e": "1000 años"
+        },
+        "Q83": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Un milenio?",
+            "d": "1000 años",
+            "e": "100 años"
+        },
+        "Q84": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Tetra?",
+            "d": "4",
+            "e": "5"
+        },
+        "Q85": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Penta?",
+            "d": "5",
+            "e": "4"
+        },
+        "Q86": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Tetra?",
+            "d": "4",
+            "e": "5"
+        },
+        "Q87": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Penta?",
+            "d": "5",
+            "e": "4"
+        },
+        "Q88": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Penta?",
+            "d": "5",
+            "e": "4"
+        },
+        "Q89": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "Espinaca",
+            "d": "Verdura",
+            "e": "Fruta"
+        },
+        "Q90": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Cebolla",
+            "d": "Verdura",
+            "e": "Fruta"
+        },
+        "Q91": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Espinaca",
+            "d": "Verdura",
+            "e": "Fruta"
+        },
+        "Q92": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Capital de Japón?",
+            "d": "Tokio",
+            "e": "Pekín"
+        },
+        "Q93": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Patas de una araña?",
+            "d": "8",
+            "e": "6"
+        },
+        "Q94": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Patas de una hormiga?",
+            "d": "6",
+            "e": "8"
+        },
+        "Q95": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Patas de una mosca?",
+            "d": "6",
+            "e": "4"
+        },
+        "Q96": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Estómagos de una vaca?",
+            "d": "4",
+            "e": "2"
+        },
+        "Q97": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Capital de Argentina?",
+            "d": "B. Aires",
+            "e": "Mar del Plata"
+        },
+        "Q98": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Capital de Chile?",
+            "d": "S. Chile",
+            "e": "B. Aires"
         }
     }
 }

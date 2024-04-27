@@ -61,9 +61,6 @@ class Main extends Phaser.Scene {
     }, 5000)
     console.log(ENV.MSJ);
   }
-
-  update() {
-  }
 }
 
 const config = {

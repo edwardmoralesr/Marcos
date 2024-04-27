@@ -1,9 +1,73 @@
 import '../../style.css'
-import Phaser from 'phaser'
+import Phaser, { NONE } from 'phaser'
 
 class Question extends Phaser.Scene {
     constructor() {
         super({ key: 'Question', active: false });
+    }
+
+    point = -1;
+    eventTimer;
+
+    getTime(now) {
+
+        this.timeLife = 4;
+        const screenWidth = now.sys.game.config.width;
+        const screenHeight = now.sys.game.config.height;
+
+        const modalWidth = screenWidth / 2;
+        const modalHeight = screenHeight / 2;
+        const modalX = (screenWidth - modalWidth) / 2;
+        const modalY = (screenHeight - modalHeight) / 2;
+
+        if (now.timer) {
+            now.timer.setVisible(false);
+        }
+        if (this.eventTimer) {
+            this.eventTimer.destroy();
+        }
+
+        now.timer = now.add.text((modalX + modalWidth / 2) * 1.62, (modalY + modalHeight / 2) * 0.15, 'TIME:' + this.timeLife, { fontStyle: 'bolder', fontSize: '25.2px', fill: '#FFF' }).setOrigin(0.5);
+        var more = this;
+        this.eventTimer = now.time.addEvent({
+            delay: 1000,
+            callback: function () {
+                this.timeLife--;
+                now.timer.setText('TIME:' + this.timeLife);
+                if (this.timeLife <= 0) {
+                    this.eventTimer.destroy();
+                    now.modal.getGameOverModal(now).then(response => {
+                        more.point = -1;
+                        if (response) {
+                            now.scene.start('Sleeper');
+                        } else {
+                            now.scene.start('Home');
+                        }
+                    });
+                }
+            },
+            callbackScope: this,
+            loop: true
+        });
+    }
+
+    getPoint(now) {
+
+        const screenWidth = now.sys.game.config.width;
+        const screenHeight = now.sys.game.config.height;
+
+        const modalWidth = screenWidth / 2;
+        const modalHeight = screenHeight / 2;
+        const modalX = (screenWidth - modalWidth) / 2;
+        const modalY = (screenHeight - modalHeight) / 2;
+
+        this.point++;
+
+        if (now.score) {
+            now.score.setVisible(false);
+        }
+
+        now.score = now.add.text((modalX + modalWidth / 2) * 0.4, (modalY + modalHeight / 2) * 0.15, 'SCORE:' + this.point, { fontStyle: 'bolder', fontSize: '25.2px', fill: '#FFF' }).setOrigin(0.5);
     }
 
     sendQuestion(page) {
@@ -12,6 +76,7 @@ class Question extends Phaser.Scene {
 
         var now = page;
         var more = this;
+        more.getPoint(now);
         setTimeout(function () {
             now.infoModal = {
                 question: q.txtQuestion,
@@ -24,19 +89,22 @@ class Question extends Phaser.Scene {
             }
             now.modal = now.scene.get('Modal');
             now.modal.getQuestionModal(now).then(response => {
+                more.eventTimer.destroy();
                 if (response == q.d) {
                     now.soundPoint.play();
                     more.sendQuestion(now);
                 } else {
                     now.modal.getGameOverModal(now).then(response => {
+                        more.point = -1;
                         if (response) {
-                            more.sendQuestion(now);
+                            now.scene.start('Sleeper');
                         } else {
                             now.scene.start('Home');
                         }
                     });
                 }
             });
+            more.getTime(now);
         }, 2000)
     }
 
