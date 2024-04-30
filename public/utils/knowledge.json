@@ -157,37 +157,37 @@
         "Q23": {
             "a": "N",
             "b": "Sleeper",
-            "c": "¿Capital de Bolivar?",
-            "d": "Cartagena",
-            "e": "B/quilla"
+            "c": "¿Triángulo Equilatero?",
+            "d": "3 lados =",
+            "e": "2 lados ="
         },
         "Q24": {
             "a": "N",
             "b": "Sleeper",
-            "c": "¿Capital de Vichada?",
-            "d": "P. Carreño",
-            "e": "Mitú"
+            "c": "¿Número primo?",
+            "d": "11",
+            "e": "22"
         },
         "Q25": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Capital de Vaupés?",
-            "d": "Mitú",
-            "e": "Mocoa"
-        },
-        "Q26": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Capital de Arauca?",
-            "d": "Arauca",
-            "e": "Mocoa"
-        },
-        "Q27": {
             "a": "E",
             "b": "Sleeper",
-            "c": "¿Capital de Francia?",
-            "d": "París",
-            "e": "Madrid"
+            "c": "¿Número par?",
+            "d": "8",
+            "e": "5"
+        },
+        "Q26": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Serbia?",
+            "d": "Belgrado",
+            "e": "Helsinki"
+        },
+        "Q27": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Triángulo Isósceles?",
+            "d": "2 lados =",
+            "e": "3 lados ="
         },
         "Q28": {
             "a": "E",
@@ -201,7 +201,7 @@
             "b": "Sleeper",
             "c": "¿Capital de China?",
             "d": "Pekín",
-            "e": "Shanghái"
+            "e": "Tokio"
         },
         "Q30": {
             "a": "H",
@@ -677,7 +677,7 @@
             "b": "Sleeper",
             "c": "¿Capital de Argentina?",
             "d": "B. Aires",
-            "e": "Mar del Plata"
+            "e": "Córdoba"
         },
         "Q98": {
             "a": "E",
@@ -685,6 +685,97 @@
             "c": "¿Capital de Chile?",
             "d": "S. Chile",
             "e": "B. Aires"
+        },
+        "Q99": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Alaska?",
+            "d": "Juneau",
+            "e": "Ottawa"
+        },
+        "Q100": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Capital de Singapur?",
+            "d": "Singapur",
+            "e": "Camberra"
+        },
+        "Q101": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Delgado en inglés?",
+            "d": "Thin",
+            "e": "Tin"
+        },
+        "Q102": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿8 en inglés?",
+            "d": "Eight",
+            "e": "Eigth"
+        },
+        "Q103": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿17 en inglés?",
+            "d": "Seventeen",
+            "e": "Seventy"
+        },
+        "Q104": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿70 en inglés?",
+            "d": "Seventy",
+            "e": "Seventeen"
+        },
+        "Q105": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿1 Galón?",
+            "d": "3.7 Litros",
+            "e": "3.4 Litros"
+        },
+        "Q106": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Ella en italiano?",
+            "d": "Lei",
+            "e": "Lui"
+        },
+        "Q107": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Él en italiano?",
+            "d": "Lui",
+            "e": "Lei"
+        },
+        "Q108": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Color de ojos?",
+            "d": "Iris",
+            "e": "Pupila"
+        },
+        "Q109": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Color del ojo?",
+            "d": "Iris",
+            "e": "Pupila"
+        },
+        "Q110": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Centro del ojo?",
+            "d": "Pupila",
+            "e": "Iris"
+        },
+        "Q111": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Loro en inglés?",
+            "d": "Parrot",
+            "e": "Carrot"
         }
     }
 }

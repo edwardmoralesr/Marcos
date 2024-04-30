@@ -126,6 +126,14 @@ class Modal extends Phaser.Scene {
             }
 
             now.soundLost.play();
+            now.background_gameover.setVisible(true);
+            if (now.soundBg)
+                now.soundBg.stop();
+            if (now.soundBg1)
+                now.soundBg1.stop();
+
+            now.scene.get('Player').gameOverPlayer(now);
+
 
             const screenWidth = pScene.sys.game.config.width;
             const screenHeight = pScene.sys.game.config.height;

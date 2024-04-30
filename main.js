@@ -4,6 +4,7 @@ import Home from './public/objects/home';
 import Modal from './public/objects/modal';
 import Sleeper from './public/objects/sleeper';
 import Question from './public/utils/question';
+import Player from './public/utils/player';
 
 class Main extends Phaser.Scene {
   constructor() {
@@ -71,7 +72,7 @@ const config = {
   physics: {
     default: "arcade"
   },
-  scene: [Main, Modal, Home, Sleeper, Question]
+  scene: [Main, Modal, Home, Sleeper, Question, Player]
 }
 
 const game = new Phaser.Game(config)

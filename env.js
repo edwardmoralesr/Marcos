@@ -7,5 +7,7 @@ var ENV = {
     FONT_COLOR: '#FFC90E',
     LEVEL: 'E',
     SOUND: true,
-    KNOWLEDGE: {}
+    KNOWLEDGE: {},
+    PLAYER: 'M',
+    RUN_PLAYER: ''
 };
