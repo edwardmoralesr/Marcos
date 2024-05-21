@@ -91,6 +91,7 @@ class Question extends Phaser.Scene {
             now.modal.getQuestionModal(now).then(response => {
                 more.eventTimer.destroy();
                 if (response == q.d) {
+                    now.soundPoint.setVolume(0.2);
                     now.soundPoint.play();
                     more.sendQuestion(now);
                 } else {

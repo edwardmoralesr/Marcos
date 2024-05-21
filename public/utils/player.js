@@ -7,7 +7,7 @@ class Player extends Phaser.Scene {
     }
 
     getPlayer(more) {
-        ENV.RUN_PLAYER = true;        
+        ENV.RUN_PLAYER = true;
         switch (ENV.PLAYER) {
             default:
                 more.load.image("player0r", "/assets/images/Marcos Right 0.png");
@@ -37,7 +37,7 @@ class Player extends Phaser.Scene {
 
         switch (page.scene.key) {
             case 'Sleeper':
-                this.runPlayerRight(page, 0, 90, -0.2, -0.7, 250, 90, 1400);                
+                this.runPlayerRight(page, 0, 90, -0.2, -0.7, 250, 90, 1400);
                 break;
             case 'Goal':
                 break;
@@ -55,13 +55,13 @@ class Player extends Phaser.Scene {
                 page.playerGO.setDisplaySize(115, 155);
                 page.playerGO.setOrigin(-0.2, -0.7);
 
-                if(page.playerF)
+                if (page.playerF)
                     page.playerF.setVisible(false);
-                if(page.playerB)
+                if (page.playerB)
                     page.playerB.setVisible(false);
-                if(page.playerR)
+                if (page.playerR)
                     page.playerR.setVisible(false);
-                if(page.playerRL)
+                if (page.playerRL)
                     page.playerL.setVisible(false);
                 break;
             case 'Goal':
@@ -101,7 +101,7 @@ class Player extends Phaser.Scene {
             repeat: 0, // 0 no se repite
             onComplete: function () {
                 more.playerR.setVisible(false);
-                if(ENV.RUN_PLAYER)
+                if (ENV.RUN_PLAYER)
                     now.runPlayerFront(more, 250, 90, -0.2, -0.7, 250, 180, 800);
             }
         });
@@ -137,8 +137,8 @@ class Player extends Phaser.Scene {
             repeat: 0, // 0 no se repite
             onComplete: function () {
                 more.playerF.setVisible(false);
-                if(ENV.RUN_PLAYER)
-                    now.runPlayerLeft(more, 250, 200, -0.2, -0.7, 0, 200, 1400);  
+                if (ENV.RUN_PLAYER)
+                    now.runPlayerLeft(more, 250, 200, -0.2, -0.7, 0, 200, 1400);
             }
         });
     }
@@ -173,7 +173,7 @@ class Player extends Phaser.Scene {
             repeat: 0, // 0 no se repite
             onComplete: function () {
                 more.playerL.setVisible(false);
-                if(ENV.RUN_PLAYER)
+                if (ENV.RUN_PLAYER)
                     now.runPlayerBack(more, 0, 200, -0.2, -0.7, 0, 100, 800);
             }
         });
@@ -208,8 +208,8 @@ class Player extends Phaser.Scene {
             repeat: 0, // 0 no se repite
             onComplete: function () {
                 more.playerB.setVisible(false);
-                if(ENV.RUN_PLAYER)
-                    now.runPlayerRight(more, 0, 90, -0.2, -0.7, 250, 90, 1500); 
+                if (ENV.RUN_PLAYER)
+                    now.runPlayerRight(more, 0, 90, -0.2, -0.7, 250, 90, 1500);
             }
         });
     }

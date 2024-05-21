@@ -131,7 +131,7 @@
             "b": "Sleeper",
             "c": "Número primo",
             "d": "13",
-            "e": "22"
+            "e": "21"
         },
         "Q20": {
             "a": "N",
@@ -271,14 +271,14 @@
             "b": "Sleeper",
             "c": "¿50 Romano?",
             "d": "L",
-            "e": "M"
+            "e": "C"
         },
         "Q40": {
             "a": "N",
             "b": "Sleeper",
             "c": "¿19 Romano?",
             "d": "XXIX",
-            "e": "XIX"
+            "e": "XXXIX"
         },
         "Q41": {
             "a": "H",
@@ -488,14 +488,14 @@
             "b": "Sleeper",
             "c": "¿100 Romano?",
             "d": "C",
-            "e": "M"
+            "e": "L"
         },
         "Q71": {
             "a": "H",
             "b": "Sleeper",
             "c": "¿99 Romano?",
             "d": "XCIX",
-            "e": "LXIX"
+            "e": "XCIV"
         },
         "Q72": {
             "a": "H",
@@ -677,7 +677,7 @@
             "b": "Sleeper",
             "c": "¿Capital de Argentina?",
             "d": "B. Aires",
-            "e": "Córdoba"
+            "e": "Montevideo"
         },
         "Q98": {
             "a": "E",
@@ -776,6 +776,384 @@
             "c": "¿Loro en inglés?",
             "d": "Parrot",
             "e": "Carrot"
+        },
+        "Q112": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Número impar?",
+            "d": "5",
+            "e": "8"
+        },
+        "Q113": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Color primario?",
+            "d": "Rojo",
+            "e": "Verde"
+        },
+        "Q114": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Color primario?",
+            "d": "Azul",
+            "e": "Púrpura"
+        },
+        "Q115": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Agua en inglés?",
+            "d": "Water",
+            "e": "Milk"
+        },
+        "Q116": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Leche en inglés?",
+            "d": "Milk",
+            "e": "Water"
+        },
+        "Q117": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Segundos en media hora?",
+            "d": "1800",
+            "e": "2400"
+        },
+        "Q118": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Segundos en 4 horas?",
+            "d": "14400",
+            "e": "12800"
+        },
+        "Q119": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Minutos en 1 día?",
+            "d": "1440",
+            "e": "1620"
+        },
+        "Q120": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Caras de un cubo?",
+            "d": "6",
+            "e": "12"
+        },
+        "Q121": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Árbol en inglés?",
+            "d": "Tree",
+            "e": "Three"
+        },
+        "Q122": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Tres en inglés?",
+            "d": "Three",
+            "e": "Tree"
+        },
+        "Q123": {
+            "a": "E",
+            "b": "Sleeper",
+            "c": "¿Lunes en inglés?",
+            "d": "Monday",
+            "e": "Sunday"
+        },
+        "Q124": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Ayer en inglés?",
+            "d": "Yesterday",
+            "e": "Today"
+        },
+        "Q125": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Hoy en inglés?",
+            "d": "Today",
+            "e": "Yesterday"
+        },
+        "Q126": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Mañana en inglés?",
+            "d": "Tomorrow",
+            "e": "Today"
+        },
+        "Q127": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Centímetros en un metro?",
+            "d": "100",
+            "e": "1000"
+        },
+        "Q128": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Gramos en un kilo?",
+            "d": "1000",
+            "e": "100"
+        },
+        "Q129": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Gramos en una libra?",
+            "d": "453",
+            "e": "500"
+        },
+        "Q130": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Velocidad de la luz?",
+            "d": "300 mil km/s",
+            "e": "300 mil km/h"
+        },
+        "Q131": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Velocidad del sonido?",
+            "d": "343.2 m/s",
+            "e": "342.3 m/s"
+        },
+        "Q132": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Carpeta en inglés?",
+            "d": "Folder",
+            "e": "Carpet"
+        },
+        "Q133": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Sopa en inglés?",
+            "d": "Soup",
+            "e": "Soap"
+        },
+        "Q134": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Copa en inglés?",
+            "d": "Cup",
+            "e": "Cop"
+        },
+        "Q135": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Lluvia en inglés?",
+            "d": "Rain",
+            "e": "Storm"
+        },
+        "Q136": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "Boda",
+            "d": "Casar",
+            "e": "Cazar"
+        },
+        "Q137": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Espalda en inglés?",
+            "d": "Back",
+            "e": "Bag"
+        },
+        "Q138": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Planeta cerca al Sol?",
+            "d": "Mercurio",
+            "e": "Marte"
+        },
+        "Q139": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Planeta cerca de la Tierra?",
+            "d": "Venus",
+            "e": "Júpiter"
+        },
+        "Q140": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Planeta con anillos?",
+            "d": "Saturno",
+            "e": "Jupiter"
+        },
+        "Q141": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Planeta lejos del Sol?",
+            "d": "Neptuno",
+            "e": "Urano"
+        },
+        "Q142": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Nombre de nuestra galaxia?",
+            "d": "Vía Láctea",
+            "e": "Andrómeda"
+        },
+        "Q143": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Años luz?",
+            "d": "Distancia",
+            "e": "Tiempo"
+        },
+        "Q144": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Hexa?",
+            "d": "6",
+            "e": "7"
+        },
+        "Q145": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Hepta?",
+            "d": "7",
+            "e": "6"
+        },
+        "Q146": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Hexa?",
+            "d": "6",
+            "e": "7"
+        },
+        "Q147": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Hepta?",
+            "d": "7",
+            "e": "6"
+        },
+        "Q148": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Hombre en inglés?",
+            "d": "Man",
+            "e": "Men"
+        },
+        "Q149": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Hombres en inglés?",
+            "d": "Men",
+            "e": "Man"
+        },
+        "Q150": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Mujer en inglés?",
+            "d": "Woman",
+            "e": "Women"
+        },
+        "Q151": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Mujeres en inglés?",
+            "d": "Women",
+            "e": "Woman"
+        },
+        "Q152": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Caballo en inglés?",
+            "d": "Horse",
+            "e": "House"
+        },
+        "Q153": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Casa en inglés?",
+            "d": "House",
+            "e": "Horse"
+        },
+        "Q154": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Papá en inglés?",
+            "d": "Dad",
+            "e": "Pope"
+        },
+        "Q155": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Papa en inglés?",
+            "d": "Pope",
+            "e": "Dad"
+        },
+        "Q156": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Papa en inglés?",
+            "d": "Pope",
+            "e": "Dad"
+        },
+        "Q157": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Papá en inglés?",
+            "d": "Dad",
+            "e": "Pope"
+        },
+        "Q158": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Arroz en inglés?",
+            "d": "Rice",
+            "e": "Rise"
+        },
+        "Q159": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Inca?",
+            "d": "Perú",
+            "e": "México"
+        },
+        "Q160": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Maya?",
+            "d": "México",
+            "e": "Perú"
+        },
+        "Q161": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Azteca?",
+            "d": "México",
+            "e": "Colombia"
+        },
+        "Q162": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Chibcha?",
+            "d": "Colombia",
+            "e": "México"
+        },
+        "Q163": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Siglo actual?",
+            "d": "XXI",
+            "e": "XX"
+        },
+        "Q164": {
+            "a": "H",
+            "b": "Sleeper",
+            "c": "¿Siglo anterior?",
+            "d": "XX",
+            "e": "XXI"
+        },
+        "Q165": {
+            "a": "N",
+            "b": "Sleeper",
+            "c": "¿Mes seis del año?",
+            "d": "Junio",
+            "e": "Julio"
         }
     }
 }
