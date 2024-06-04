@@ -1,1159 +1,1621 @@
 {
-    "knowledge": {
-        "Q1": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Capital de Colombia?",
-            "d": "Bogotá",
-            "e": "Lima"
-        },
-        "Q2": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Capital de España?",
-            "d": "Madrid",
-            "e": "Roma"
-        },
-        "Q3": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Capital de Perú?",
-            "d": "Lima",
-            "e": "Bogotá"
-        },
-        "Q4": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Amarillo en inglés?",
-            "d": "Yellow",
-            "e": "Red"
-        },
-        "Q5": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Rojo en inglés?",
-            "d": "Red",
-            "e": "Blue"
-        },
-        "Q6": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Blanco en inglés?",
-            "d": "White",
-            "e": "Black"
-        },
-        "Q7": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Perro en inglés?",
-            "d": "Dog",
-            "e": "Cat"
-        },
-        "Q8": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Gato en inglés?",
-            "d": "Cat",
-            "e": "Dog"
-        },
-        "Q9": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Gallina en inglés?",
-            "d": "Hen",
-            "e": "Chicken"
-        },
-        "Q10": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Cocina en inglés?",
-            "d": "Kitchen",
-            "e": "Chicken"
-        },
-        "Q11": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Hijos en inglés?",
-            "d": "Children",
-            "e": "Sons"
-        },
-        "Q12": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Canción en inglés?",
-            "d": "Song",
-            "e": "Sing"
-        },
-        "Q13": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Cantante en inglés?",
-            "d": "Singer",
-            "e": "Songer"
-        },
-        "Q14": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Capital de Brasil?",
-            "d": "Brasilia",
-            "e": "R.Janeiro"
-        },
-        "Q15": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Gris en ingles?",
-            "d": "Gray",
-            "e": "Green"
-        },
-        "Q16": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Verde en ingles?",
-            "d": "Green",
-            "e": "Gray"
-        },
-        "Q17": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Número primo",
-            "d": "11",
-            "e": "9"
-        },
-        "Q18": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Número primo",
-            "d": "7",
-            "e": "15"
-        },
-        "Q19": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Número primo",
-            "d": "13",
-            "e": "21"
-        },
-        "Q20": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Capital de Paraguay?",
-            "d": "Asunción",
-            "e": "Montevideo"
-        },
-        "Q21": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Capital de Alemania?",
-            "d": "Berlín",
-            "e": "Múnich"
-        },
-        "Q22": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Capital de Uruguay?",
-            "d": "Montevideo",
-            "e": "Asunción"
-        },
-        "Q23": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Triángulo Equilatero?",
-            "d": "3 lados =",
-            "e": "2 lados ="
-        },
-        "Q24": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Número primo?",
-            "d": "11",
-            "e": "22"
-        },
-        "Q25": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Número par?",
-            "d": "8",
-            "e": "5"
-        },
-        "Q26": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Serbia?",
-            "d": "Belgrado",
-            "e": "Helsinki"
-        },
-        "Q27": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Triángulo Isósceles?",
-            "d": "2 lados =",
-            "e": "3 lados ="
-        },
-        "Q28": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Capital de Francia?",
-            "d": "París",
-            "e": "Madrid"
-        },
-        "Q29": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de China?",
-            "d": "Pekín",
-            "e": "Tokio"
-        },
-        "Q30": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Canadá?",
-            "d": "Ottawa",
-            "e": "Toronto"
-        },
-        "Q31": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Australia?",
-            "d": "Camberra",
-            "e": "Sídney"
-        },
-        "Q32": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Austria?",
-            "d": "Viena",
-            "e": "Praga"
-        },
-        "Q33": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de R.Checa?",
-            "d": "Praga",
-            "e": "Budapest"
-        },
-        "Q34": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Turquía?",
-            "d": "Ankara",
-            "e": "Estambul"
-        },
-        "Q35": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Hungría?",
-            "d": "Budapest",
-            "e": "Praga"
-        },
-        "Q36": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Capital de Italia?",
-            "d": "Roma",
-            "e": "Milán"
-        },
-        "Q37": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Capital de Ecuador?",
-            "d": "Quito",
-            "e": "Lima"
-        },
-        "Q38": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Capital de Bolivia?",
-            "d": "La Paz",
-            "e": "Quito"
-        },
-        "Q39": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿50 Romano?",
-            "d": "L",
-            "e": "C"
-        },
-        "Q40": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿19 Romano?",
-            "d": "XXIX",
-            "e": "XXXIX"
-        },
-        "Q41": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿74 Romano?",
-            "d": "LXXIV",
-            "e": "LXIV"
-        },
-        "Q42": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Capital de Ucrania?",
-            "d": "Kiev",
-            "e": "Praga"
-        },
-        "Q43": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Noruega?",
-            "d": "Oslo",
-            "e": "Berna"
-        },
-        "Q44": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Finlandia?",
-            "d": "Helsinki",
-            "e": "Oslo"
-        },
-        "Q45": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Polonia?",
-            "d": "Varsovia",
-            "e": "Praga"
-        },
-        "Q46": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Suecia?",
-            "d": "Estocolmo",
-            "e": "Praga"
-        },
-        "Q47": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Suiza?",
-            "d": "Berna",
-            "e": "Viena"
-        },
-        "Q48": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Pera en inglés?",
-            "d": "Pear",
-            "e": "Apple"
-        },
-        "Q49": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Manzana en inglés?",
-            "d": "Apple",
-            "e": "Orange"
-        },
-        "Q50": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Mora en inglés?",
-            "d": "Blackberry",
-            "e": "Strawberry"
-        },
-        "Q51": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Fresa en inglés?",
-            "d": "Strawberry",
-            "e": "Blackberry"
-        },
-        "Q52": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Piña en inglés?",
-            "d": "Pineapple",
-            "e": "Orange"
-        },
-        "Q53": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Copiar",
-            "d": "Ctrl+C",
-            "e": "Ctrl+V"
-        },
-        "Q54": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Cortar",
-            "d": "Ctrl+X",
-            "e": "Ctrl+C"
-        },
-        "Q55": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Pegar",
-            "d": "Ctrl+V",
-            "e": "Ctrl+X"
-        },
-        "Q56": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "Piedra",
-            "d": "Tijera",
-            "e": "Papel"
-        },
-        "Q57": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "Papel",
-            "d": "Piedra",
-            "e": "Tijera"
-        },
-        "Q58": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "Tijera",
-            "d": "Papel",
-            "e": "Piedra"
-        },
-        "Q59": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Piedra",
-            "d": "Tijera",
-            "e": "Papel"
-        },
-        "Q60": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Papel",
-            "d": "Piedra",
-            "e": "Tijera"
-        },
-        "Q61": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Tijera",
-            "d": "Papel",
-            "e": "Piedra"
-        },
-        "Q62": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Navegador Web",
-            "d": "Chrome",
-            "e": "Google"
-        },
-        "Q63": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Mamífero",
-            "d": "Ballena",
-            "e": "Tortuga"
-        },
-        "Q64": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Anfibio",
-            "d": "Rana",
-            "e": "Serpiente"
-        },
-        "Q65": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Reptil",
-            "d": "Iguana",
-            "e": "Anguila"
-        },
-        "Q66": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Cantidad de Cromosomas?",
-            "d": "46",
-            "e": "42"
-        },
-        "Q67": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "Piedra",
-            "d": "Tijera",
-            "e": "Papel"
-        },
-        "Q68": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "Papel",
-            "d": "Piedra",
-            "e": "Tijera"
-        },
-        "Q69": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "Tijera",
-            "d": "Papel",
-            "e": "Piedra"
-        },
-        "Q70": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿100 Romano?",
-            "d": "C",
-            "e": "L"
-        },
-        "Q71": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿99 Romano?",
-            "d": "XCIX",
-            "e": "XCIV"
-        },
-        "Q72": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Fichas en ajedréz?",
-            "d": "32",
-            "e": "28"
-        },
-        "Q73": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Centro del huevo?",
-            "d": "Yema",
-            "e": "Clara"
-        },
-        "Q74": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Tomate",
-            "d": "Fruta",
-            "e": "Verdura"
-        },
-        "Q75": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "Tomate",
-            "d": "Fruta",
-            "e": "Verdura"
-        },
-        "Q76": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Aguacate",
-            "d": "Fruta",
-            "e": "Verdura"
-        },
-        "Q77": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "Aguacate",
-            "d": "Fruta",
-            "e": "Verdura"
-        },
-        "Q78": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Rodea el centro del huevo?",
-            "d": "Clara",
-            "e": "Yema"
-        },
-        "Q79": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Segundos en una hora?",
-            "d": "3600",
-            "e": "6000"
-        },
-        "Q80": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Tres docenas?",
-            "d": "36",
-            "e": "30"
-        },
-        "Q81": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Tres decenas?",
-            "d": "30",
-            "e": "36"
-        },
-        "Q82": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Un siglo?",
-            "d": "100 años",
-            "e": "1000 años"
-        },
-        "Q83": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Un milenio?",
-            "d": "1000 años",
-            "e": "100 años"
-        },
-        "Q84": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Tetra?",
-            "d": "4",
-            "e": "5"
-        },
-        "Q85": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Penta?",
-            "d": "5",
-            "e": "4"
-        },
-        "Q86": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Tetra?",
-            "d": "4",
-            "e": "5"
-        },
-        "Q87": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Penta?",
-            "d": "5",
-            "e": "4"
-        },
-        "Q88": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Penta?",
-            "d": "5",
-            "e": "4"
-        },
-        "Q89": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "Espinaca",
-            "d": "Verdura",
-            "e": "Fruta"
-        },
-        "Q90": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Cebolla",
-            "d": "Verdura",
-            "e": "Fruta"
-        },
-        "Q91": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Espinaca",
-            "d": "Verdura",
-            "e": "Fruta"
-        },
-        "Q92": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Capital de Japón?",
-            "d": "Tokio",
-            "e": "Pekín"
-        },
-        "Q93": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Patas de una araña?",
-            "d": "8",
-            "e": "6"
-        },
-        "Q94": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Patas de una hormiga?",
-            "d": "6",
-            "e": "8"
-        },
-        "Q95": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Patas de una mosca?",
-            "d": "6",
-            "e": "4"
-        },
-        "Q96": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Estómagos de una vaca?",
-            "d": "4",
-            "e": "2"
-        },
-        "Q97": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Capital de Argentina?",
-            "d": "B. Aires",
-            "e": "Montevideo"
-        },
-        "Q98": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Capital de Chile?",
-            "d": "S. Chile",
-            "e": "B. Aires"
-        },
-        "Q99": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Alaska?",
-            "d": "Juneau",
-            "e": "Ottawa"
-        },
-        "Q100": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Capital de Singapur?",
-            "d": "Singapur",
-            "e": "Camberra"
-        },
-        "Q101": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Delgado en inglés?",
-            "d": "Thin",
-            "e": "Tin"
-        },
-        "Q102": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿8 en inglés?",
-            "d": "Eight",
-            "e": "Eigth"
-        },
-        "Q103": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿17 en inglés?",
-            "d": "Seventeen",
-            "e": "Seventy"
-        },
-        "Q104": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿70 en inglés?",
-            "d": "Seventy",
-            "e": "Seventeen"
-        },
-        "Q105": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿1 Galón?",
-            "d": "3.7 Litros",
-            "e": "3.4 Litros"
-        },
-        "Q106": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Ella en italiano?",
-            "d": "Lei",
-            "e": "Lui"
-        },
-        "Q107": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Él en italiano?",
-            "d": "Lui",
-            "e": "Lei"
-        },
-        "Q108": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Color de ojos?",
-            "d": "Iris",
-            "e": "Pupila"
-        },
-        "Q109": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Color del ojo?",
-            "d": "Iris",
-            "e": "Pupila"
-        },
-        "Q110": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Centro del ojo?",
-            "d": "Pupila",
-            "e": "Iris"
-        },
-        "Q111": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Loro en inglés?",
-            "d": "Parrot",
-            "e": "Carrot"
-        },
-        "Q112": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Número impar?",
-            "d": "5",
-            "e": "8"
-        },
-        "Q113": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Color primario?",
-            "d": "Rojo",
-            "e": "Verde"
-        },
-        "Q114": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Color primario?",
-            "d": "Azul",
-            "e": "Púrpura"
-        },
-        "Q115": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Agua en inglés?",
-            "d": "Water",
-            "e": "Milk"
-        },
-        "Q116": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Leche en inglés?",
-            "d": "Milk",
-            "e": "Water"
-        },
-        "Q117": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Segundos en media hora?",
-            "d": "1800",
-            "e": "2400"
-        },
-        "Q118": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Segundos en 4 horas?",
-            "d": "14400",
-            "e": "12800"
-        },
-        "Q119": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Minutos en 1 día?",
-            "d": "1440",
-            "e": "1620"
-        },
-        "Q120": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Caras de un cubo?",
-            "d": "6",
-            "e": "12"
-        },
-        "Q121": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Árbol en inglés?",
-            "d": "Tree",
-            "e": "Three"
-        },
-        "Q122": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Tres en inglés?",
-            "d": "Three",
-            "e": "Tree"
-        },
-        "Q123": {
-            "a": "E",
-            "b": "Sleeper",
-            "c": "¿Lunes en inglés?",
-            "d": "Monday",
-            "e": "Sunday"
-        },
-        "Q124": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Ayer en inglés?",
-            "d": "Yesterday",
-            "e": "Today"
-        },
-        "Q125": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Hoy en inglés?",
-            "d": "Today",
-            "e": "Yesterday"
-        },
-        "Q126": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Mañana en inglés?",
-            "d": "Tomorrow",
-            "e": "Today"
-        },
-        "Q127": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Centímetros en un metro?",
-            "d": "100",
-            "e": "1000"
-        },
-        "Q128": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Gramos en un kilo?",
-            "d": "1000",
-            "e": "100"
-        },
-        "Q129": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Gramos en una libra?",
-            "d": "453",
-            "e": "500"
-        },
-        "Q130": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Velocidad de la luz?",
-            "d": "300 mil km/s",
-            "e": "300 mil km/h"
-        },
-        "Q131": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Velocidad del sonido?",
-            "d": "343.2 m/s",
-            "e": "342.3 m/s"
-        },
-        "Q132": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Carpeta en inglés?",
-            "d": "Folder",
-            "e": "Carpet"
-        },
-        "Q133": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Sopa en inglés?",
-            "d": "Soup",
-            "e": "Soap"
-        },
-        "Q134": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Copa en inglés?",
-            "d": "Cup",
-            "e": "Cop"
-        },
-        "Q135": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Lluvia en inglés?",
-            "d": "Rain",
-            "e": "Storm"
-        },
-        "Q136": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "Boda",
-            "d": "Casar",
-            "e": "Cazar"
-        },
-        "Q137": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Espalda en inglés?",
-            "d": "Back",
-            "e": "Bag"
-        },
-        "Q138": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Planeta cerca al Sol?",
-            "d": "Mercurio",
-            "e": "Marte"
-        },
-        "Q139": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Planeta cerca de la Tierra?",
-            "d": "Venus",
-            "e": "Júpiter"
-        },
-        "Q140": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Planeta con anillos?",
-            "d": "Saturno",
-            "e": "Jupiter"
-        },
-        "Q141": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Planeta lejos del Sol?",
-            "d": "Neptuno",
-            "e": "Urano"
-        },
-        "Q142": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Nombre de nuestra galaxia?",
-            "d": "Vía Láctea",
-            "e": "Andrómeda"
-        },
-        "Q143": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Años luz?",
-            "d": "Distancia",
-            "e": "Tiempo"
-        },
-        "Q144": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Hexa?",
-            "d": "6",
-            "e": "7"
-        },
-        "Q145": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Hepta?",
-            "d": "7",
-            "e": "6"
-        },
-        "Q146": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Hexa?",
-            "d": "6",
-            "e": "7"
-        },
-        "Q147": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Hepta?",
-            "d": "7",
-            "e": "6"
-        },
-        "Q148": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Hombre en inglés?",
-            "d": "Man",
-            "e": "Men"
-        },
-        "Q149": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Hombres en inglés?",
-            "d": "Men",
-            "e": "Man"
-        },
-        "Q150": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Mujer en inglés?",
-            "d": "Woman",
-            "e": "Women"
-        },
-        "Q151": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Mujeres en inglés?",
-            "d": "Women",
-            "e": "Woman"
-        },
-        "Q152": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Caballo en inglés?",
-            "d": "Horse",
-            "e": "House"
-        },
-        "Q153": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Casa en inglés?",
-            "d": "House",
-            "e": "Horse"
-        },
-        "Q154": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Papá en inglés?",
-            "d": "Dad",
-            "e": "Pope"
-        },
-        "Q155": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Papa en inglés?",
-            "d": "Pope",
-            "e": "Dad"
-        },
-        "Q156": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Papa en inglés?",
-            "d": "Pope",
-            "e": "Dad"
-        },
-        "Q157": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Papá en inglés?",
-            "d": "Dad",
-            "e": "Pope"
-        },
-        "Q158": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Arroz en inglés?",
-            "d": "Rice",
-            "e": "Rise"
-        },
-        "Q159": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Inca?",
-            "d": "Perú",
-            "e": "México"
-        },
-        "Q160": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Maya?",
-            "d": "México",
-            "e": "Perú"
-        },
-        "Q161": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Azteca?",
-            "d": "México",
-            "e": "Colombia"
-        },
-        "Q162": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Chibcha?",
-            "d": "Colombia",
-            "e": "México"
-        },
-        "Q163": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Siglo actual?",
-            "d": "XXI",
-            "e": "XX"
-        },
-        "Q164": {
-            "a": "H",
-            "b": "Sleeper",
-            "c": "¿Siglo anterior?",
-            "d": "XX",
-            "e": "XXI"
-        },
-        "Q165": {
-            "a": "N",
-            "b": "Sleeper",
-            "c": "¿Mes seis del año?",
-            "d": "Junio",
-            "e": "Julio"
-        }
+  "knowledge": {
+    "Q1": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Capital de Colombia?",
+      "d": "Bogotá",
+      "e": "Lima"
+    },
+    "Q2": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Capital de España?",
+      "d": "Madrid",
+      "e": "Roma"
+    },
+    "Q3": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Capital de Perú?",
+      "d": "Lima",
+      "e": "Bogotá"
+    },
+    "Q4": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Amarillo en inglés?",
+      "d": "Yellow",
+      "e": "Red"
+    },
+    "Q5": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Rojo en inglés?",
+      "d": "Red",
+      "e": "Blue"
+    },
+    "Q6": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Blanco en inglés?",
+      "d": "White",
+      "e": "Black"
+    },
+    "Q7": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Perro en inglés?",
+      "d": "Dog",
+      "e": "Cat"
+    },
+    "Q8": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Gato en inglés?",
+      "d": "Cat",
+      "e": "Dog"
+    },
+    "Q9": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Gallina en inglés?",
+      "d": "Hen",
+      "e": "Chicken"
+    },
+    "Q10": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Cocina en inglés?",
+      "d": "Kitchen",
+      "e": "Chicken"
+    },
+    "Q11": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Hijos en inglés?",
+      "d": "Children",
+      "e": "Sons"
+    },
+    "Q12": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Canción en inglés?",
+      "d": "Song",
+      "e": "Sing"
+    },
+    "Q13": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Cantante en inglés?",
+      "d": "Singer",
+      "e": "Songer"
+    },
+    "Q14": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Brasil?",
+      "d": "Brasilia",
+      "e": "R.Janeiro"
+    },
+    "Q15": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Gris en ingles?",
+      "d": "Gray",
+      "e": "Green"
+    },
+    "Q16": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Verde en ingles?",
+      "d": "Green",
+      "e": "Gray"
+    },
+    "Q17": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Número primo",
+      "d": "11",
+      "e": "9"
+    },
+    "Q18": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Número primo",
+      "d": "7",
+      "e": "15"
+    },
+    "Q19": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Número primo",
+      "d": "13",
+      "e": "21"
+    },
+    "Q20": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Paraguay?",
+      "d": "Asunción",
+      "e": "Montevideo"
+    },
+    "Q21": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Alemania?",
+      "d": "Berlín",
+      "e": "Múnich"
+    },
+    "Q22": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Uruguay?",
+      "d": "Montevideo",
+      "e": "Asunción"
+    },
+    "Q23": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Triángulo Equilatero?",
+      "d": "3 lados =",
+      "e": "2 lados ="
+    },
+    "Q24": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Número primo?",
+      "d": "11",
+      "e": "22"
+    },
+    "Q25": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Número par?",
+      "d": "8",
+      "e": "5"
+    },
+    "Q26": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Serbia?",
+      "d": "Belgrado",
+      "e": "Helsinki"
+    },
+    "Q27": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Triángulo Isósceles?",
+      "d": "2 lados =",
+      "e": "3 lados ="
+    },
+    "Q28": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Capital de Francia?",
+      "d": "París",
+      "e": "Madrid"
+    },
+    "Q29": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de China?",
+      "d": "Pekín",
+      "e": "Tokio"
+    },
+    "Q30": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Canadá?",
+      "d": "Ottawa",
+      "e": "Toronto"
+    },
+    "Q31": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Australia?",
+      "d": "Camberra",
+      "e": "Sídney"
+    },
+    "Q32": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Austria?",
+      "d": "Viena",
+      "e": "Praga"
+    },
+    "Q33": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de R.Checa?",
+      "d": "Praga",
+      "e": "Budapest"
+    },
+    "Q34": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Turquía?",
+      "d": "Ankara",
+      "e": "Estambul"
+    },
+    "Q35": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Hungría?",
+      "d": "Budapest",
+      "e": "Praga"
+    },
+    "Q36": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Capital de Italia?",
+      "d": "Roma",
+      "e": "Milán"
+    },
+    "Q37": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Capital de Ecuador?",
+      "d": "Quito",
+      "e": "Lima"
+    },
+    "Q38": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Capital de Bolivia?",
+      "d": "La Paz",
+      "e": "Quito"
+    },
+    "Q39": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿50 Romano?",
+      "d": "L",
+      "e": "C"
+    },
+    "Q40": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿19 Romano?",
+      "d": "XXIX",
+      "e": "XXXIX"
+    },
+    "Q41": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿74 Romano?",
+      "d": "LXXIV",
+      "e": "LXIV"
+    },
+    "Q42": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Ucrania?",
+      "d": "Kiev",
+      "e": "Praga"
+    },
+    "Q43": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Noruega?",
+      "d": "Oslo",
+      "e": "Berna"
+    },
+    "Q44": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Finlandia?",
+      "d": "Helsinki",
+      "e": "Oslo"
+    },
+    "Q45": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Polonia?",
+      "d": "Varsovia",
+      "e": "Praga"
+    },
+    "Q46": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Suecia?",
+      "d": "Estocolmo",
+      "e": "Praga"
+    },
+    "Q47": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Suiza?",
+      "d": "Berna",
+      "e": "Viena"
+    },
+    "Q48": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Pera en inglés?",
+      "d": "Pear",
+      "e": "Apple"
+    },
+    "Q49": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Manzana en inglés?",
+      "d": "Apple",
+      "e": "Orange"
+    },
+    "Q50": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Mora en inglés?",
+      "d": "Blackberry",
+      "e": "Strawberry"
+    },
+    "Q51": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Fresa en inglés?",
+      "d": "Strawberry",
+      "e": "Blackberry"
+    },
+    "Q52": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Piña en inglés?",
+      "d": "Pineapple",
+      "e": "Orange"
+    },
+    "Q53": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Copiar",
+      "d": "Ctrl+C",
+      "e": "Ctrl+V"
+    },
+    "Q54": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Cortar",
+      "d": "Ctrl+X",
+      "e": "Ctrl+C"
+    },
+    "Q55": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Pegar",
+      "d": "Ctrl+V",
+      "e": "Ctrl+X"
+    },
+    "Q56": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Piedra",
+      "d": "Tijera",
+      "e": "Papel"
+    },
+    "Q57": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Papel",
+      "d": "Piedra",
+      "e": "Tijera"
+    },
+    "Q58": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Tijera",
+      "d": "Papel",
+      "e": "Piedra"
+    },
+    "Q59": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Piedra",
+      "d": "Tijera",
+      "e": "Papel"
+    },
+    "Q60": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Papel",
+      "d": "Piedra",
+      "e": "Tijera"
+    },
+    "Q61": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Tijera",
+      "d": "Papel",
+      "e": "Piedra"
+    },
+    "Q62": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Navegador Web",
+      "d": "Chrome",
+      "e": "Google"
+    },
+    "Q63": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Mamífero",
+      "d": "Ballena",
+      "e": "Tortuga"
+    },
+    "Q64": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Anfibio",
+      "d": "Rana",
+      "e": "Serpiente"
+    },
+    "Q65": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Reptil",
+      "d": "Iguana",
+      "e": "Anguila"
+    },
+    "Q66": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Cantidad de Cromosomas?",
+      "d": "46",
+      "e": "42"
+    },
+    "Q67": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Piedra",
+      "d": "Tijera",
+      "e": "Papel"
+    },
+    "Q68": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Papel",
+      "d": "Piedra",
+      "e": "Tijera"
+    },
+    "Q69": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Tijera",
+      "d": "Papel",
+      "e": "Piedra"
+    },
+    "Q70": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿100 Romano?",
+      "d": "C",
+      "e": "L"
+    },
+    "Q71": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿99 Romano?",
+      "d": "XCIX",
+      "e": "XCIV"
+    },
+    "Q72": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Fichas en ajedréz?",
+      "d": "32",
+      "e": "28"
+    },
+    "Q73": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Centro del huevo?",
+      "d": "Yema",
+      "e": "Clara"
+    },
+    "Q74": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Tomate",
+      "d": "Fruta",
+      "e": "Verdura"
+    },
+    "Q75": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Tomate",
+      "d": "Fruta",
+      "e": "Verdura"
+    },
+    "Q76": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Aguacate",
+      "d": "Fruta",
+      "e": "Verdura"
+    },
+    "Q77": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Aguacate",
+      "d": "Fruta",
+      "e": "Verdura"
+    },
+    "Q78": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Rodea el centro del huevo?",
+      "d": "Clara",
+      "e": "Yema"
+    },
+    "Q79": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Segundos en una hora?",
+      "d": "3600",
+      "e": "6000"
+    },
+    "Q80": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Tres docenas?",
+      "d": "36",
+      "e": "30"
+    },
+    "Q81": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Tres decenas?",
+      "d": "30",
+      "e": "36"
+    },
+    "Q82": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Un siglo?",
+      "d": "100 años",
+      "e": "1000 años"
+    },
+    "Q83": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Un milenio?",
+      "d": "1000 años",
+      "e": "100 años"
+    },
+    "Q84": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Tetra?",
+      "d": "4",
+      "e": "5"
+    },
+    "Q85": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Penta?",
+      "d": "5",
+      "e": "4"
+    },
+    "Q86": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Tetra?",
+      "d": "4",
+      "e": "5"
+    },
+    "Q87": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Penta?",
+      "d": "5",
+      "e": "4"
+    },
+    "Q88": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Penta?",
+      "d": "5",
+      "e": "4"
+    },
+    "Q89": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Espinaca",
+      "d": "Verdura",
+      "e": "Fruta"
+    },
+    "Q90": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Cebolla",
+      "d": "Verdura",
+      "e": "Fruta"
+    },
+    "Q91": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Espinaca",
+      "d": "Verdura",
+      "e": "Fruta"
+    },
+    "Q92": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Japón?",
+      "d": "Tokio",
+      "e": "Pekín"
+    },
+    "Q93": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Patas de una araña?",
+      "d": "8",
+      "e": "6"
+    },
+    "Q94": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Patas de una hormiga?",
+      "d": "6",
+      "e": "8"
+    },
+    "Q95": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Patas de una mosca?",
+      "d": "6",
+      "e": "4"
+    },
+    "Q96": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Estómagos de una vaca?",
+      "d": "4",
+      "e": "2"
+    },
+    "Q97": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Capital de Argentina?",
+      "d": "B. Aires",
+      "e": "Montevideo"
+    },
+    "Q98": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Capital de Chile?",
+      "d": "S. Chile",
+      "e": "B. Aires"
+    },
+    "Q99": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Alaska?",
+      "d": "Juneau",
+      "e": "Ottawa"
+    },
+    "Q100": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Singapur?",
+      "d": "Singapur",
+      "e": "Camberra"
+    },
+    "Q101": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Delgado en inglés?",
+      "d": "Thin",
+      "e": "Tin"
+    },
+    "Q102": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿8 en inglés?",
+      "d": "Eight",
+      "e": "Eigth"
+    },
+    "Q103": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿17 en inglés?",
+      "d": "Seventeen",
+      "e": "Seventy"
+    },
+    "Q104": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿70 en inglés?",
+      "d": "Seventy",
+      "e": "Seventeen"
+    },
+    "Q105": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿1 Galón?",
+      "d": "3.7 Litros",
+      "e": "3.4 Litros"
+    },
+    "Q106": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Ella en italiano?",
+      "d": "Lei",
+      "e": "Lui"
+    },
+    "Q107": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Él en italiano?",
+      "d": "Lui",
+      "e": "Lei"
+    },
+    "Q108": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Color de ojos?",
+      "d": "Iris",
+      "e": "Pupila"
+    },
+    "Q109": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Color del ojo?",
+      "d": "Iris",
+      "e": "Pupila"
+    },
+    "Q110": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Centro del ojo?",
+      "d": "Pupila",
+      "e": "Iris"
+    },
+    "Q111": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Loro en inglés?",
+      "d": "Parrot",
+      "e": "Carrot"
+    },
+    "Q112": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Número impar?",
+      "d": "5",
+      "e": "8"
+    },
+    "Q113": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Color primario?",
+      "d": "Rojo",
+      "e": "Verde"
+    },
+    "Q114": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Color primario?",
+      "d": "Azul",
+      "e": "Púrpura"
+    },
+    "Q115": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Agua en inglés?",
+      "d": "Water",
+      "e": "Milk"
+    },
+    "Q116": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Leche en inglés?",
+      "d": "Milk",
+      "e": "Water"
+    },
+    "Q117": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Segundos en media hora?",
+      "d": "1800",
+      "e": "2400"
+    },
+    "Q118": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Segundos en 4 horas?",
+      "d": "14400",
+      "e": "12800"
+    },
+    "Q119": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Minutos en 1 día?",
+      "d": "1440",
+      "e": "1620"
+    },
+    "Q120": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Caras de un cubo?",
+      "d": "6",
+      "e": "12"
+    },
+    "Q121": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Árbol en inglés?",
+      "d": "Tree",
+      "e": "Three"
+    },
+    "Q122": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Tres en inglés?",
+      "d": "Three",
+      "e": "Tree"
+    },
+    "Q123": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Lunes en inglés?",
+      "d": "Monday",
+      "e": "Sunday"
+    },
+    "Q124": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Ayer en inglés?",
+      "d": "Yesterday",
+      "e": "Today"
+    },
+    "Q125": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Hoy en inglés?",
+      "d": "Today",
+      "e": "Yesterday"
+    },
+    "Q126": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Mañana en inglés?",
+      "d": "Tomorrow",
+      "e": "Today"
+    },
+    "Q127": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Centímetros en un metro?",
+      "d": "100",
+      "e": "1000"
+    },
+    "Q128": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Gramos en un kilo?",
+      "d": "1000",
+      "e": "100"
+    },
+    "Q129": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Gramos en una libra?",
+      "d": "453",
+      "e": "500"
+    },
+    "Q130": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Velocidad de la luz?",
+      "d": "300 mil km/s",
+      "e": "300 mil km/h"
+    },
+    "Q131": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Velocidad del sonido?",
+      "d": "343.2 m/s",
+      "e": "342.3 m/s"
+    },
+    "Q132": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Carpeta en inglés?",
+      "d": "Folder",
+      "e": "Carpet"
+    },
+    "Q133": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Sopa en inglés?",
+      "d": "Soup",
+      "e": "Soap"
+    },
+    "Q134": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Copa en inglés?",
+      "d": "Cup",
+      "e": "Cop"
+    },
+    "Q135": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Lluvia en inglés?",
+      "d": "Rain",
+      "e": "Storm"
+    },
+    "Q136": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Boda",
+      "d": "Casar",
+      "e": "Cazar"
+    },
+    "Q137": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Espalda en inglés?",
+      "d": "Back",
+      "e": "Bag"
+    },
+    "Q138": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Planeta cerca al Sol?",
+      "d": "Mercurio",
+      "e": "Marte"
+    },
+    "Q139": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Planeta cerca de la Tierra?",
+      "d": "Venus",
+      "e": "Júpiter"
+    },
+    "Q140": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Planeta con anillos?",
+      "d": "Saturno",
+      "e": "Jupiter"
+    },
+    "Q141": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Planeta lejos del Sol?",
+      "d": "Neptuno",
+      "e": "Urano"
+    },
+    "Q142": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Nombre de nuestra galaxia?",
+      "d": "Vía Láctea",
+      "e": "Andrómeda"
+    },
+    "Q143": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Años luz?",
+      "d": "Distancia",
+      "e": "Tiempo"
+    },
+    "Q144": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Hexa?",
+      "d": "6",
+      "e": "7"
+    },
+    "Q145": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Hepta?",
+      "d": "7",
+      "e": "6"
+    },
+    "Q146": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Hexa?",
+      "d": "6",
+      "e": "7"
+    },
+    "Q147": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Hepta?",
+      "d": "7",
+      "e": "6"
+    },
+    "Q148": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Hombre en inglés?",
+      "d": "Man",
+      "e": "Men"
+    },
+    "Q149": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Hombres en inglés?",
+      "d": "Men",
+      "e": "Man"
+    },
+    "Q150": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Mujer en inglés?",
+      "d": "Woman",
+      "e": "Women"
+    },
+    "Q151": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Mujeres en inglés?",
+      "d": "Women",
+      "e": "Woman"
+    },
+    "Q152": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Caballo en inglés?",
+      "d": "Horse",
+      "e": "House"
+    },
+    "Q153": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Casa en inglés?",
+      "d": "House",
+      "e": "Horse"
+    },
+    "Q154": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Papá en inglés?",
+      "d": "Dad",
+      "e": "Pope"
+    },
+    "Q155": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Papa en inglés?",
+      "d": "Pope",
+      "e": "Dad"
+    },
+    "Q156": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Papa en inglés?",
+      "d": "Pope",
+      "e": "Dad"
+    },
+    "Q157": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Papá en inglés?",
+      "d": "Dad",
+      "e": "Pope"
+    },
+    "Q158": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Arroz en inglés?",
+      "d": "Rice",
+      "e": "Rise"
+    },
+    "Q159": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Inca?",
+      "d": "Perú",
+      "e": "México"
+    },
+    "Q160": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Maya?",
+      "d": "México",
+      "e": "Perú"
+    },
+    "Q161": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Azteca?",
+      "d": "México",
+      "e": "Colombia"
+    },
+    "Q162": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Chibcha?",
+      "d": "Colombia",
+      "e": "México"
+    },
+    "Q163": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Siglo actual?",
+      "d": "XXI",
+      "e": "XX"
+    },
+    "Q164": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Siglo anterior?",
+      "d": "XX",
+      "e": "XXI"
+    },
+    "Q165": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Mes seis del año?",
+      "d": "Junio",
+      "e": "Julio"
+    },
+    "Q166": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Cielo en un día soleado",
+      "d": "Azul",
+      "e": "Rojo"
+    },
+    "Q167": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Días en una semana",
+      "d": "Siete",
+      "e": "Diez"
+    },
+    "Q168": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿'Cien años de soledad'?",
+      "d": "G.G Márquez",
+      "e": "P. Neruda"
+    },
+    "Q169": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Lados de un triángulo",
+      "d": "Tres",
+      "e": "Cuatro"
+    },
+    "Q170": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Se celebra el día de la madre",
+      "d": "Mayo",
+      "e": "Abril"
+    },
+    "Q171": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Capital de Francia",
+      "d": "París",
+      "e": "Madrid"
+    },
+    "Q172": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Planeta más grande",
+      "d": "Júpiter",
+      "e": "Marte"
+    },
+    "Q173": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Supuestas vidas de un gato",
+      "d": "9",
+      "e": "8"
+    },
+    "Q174": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Animal terrestre más grande",
+      "d": "Elefante",
+      "e": "Rinoceronte"
+    },
+    "Q175": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Pintó 'La noche estrellada'",
+      "d": "Van Gogh",
+      "e": "Picasso"
+    },
+    "Q176": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Bombea sangre",
+      "d": "Corazón",
+      "e": "Hígado"
+    },
+    "Q177": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Capital de Japón",
+      "d": "Tokio",
+      "e": "Pekín"
+    },
+    "Q178": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Metal más abundante",
+      "d": "Aluminio",
+      "e": "Oro"
+    },
+    "Q179": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Patas de una araña",
+      "d": "Ocho",
+      "e": "Seis"
+    },
+    "Q180": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Océano más grande",
+      "d": "Pacífico",
+      "e": "Atlántico"
+    },
+    "Q181": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿'Romeo y Julieta'?",
+      "d": "Shakespeare",
+      "e": "Cervantes"
+    },
+    "Q182": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Azul y Amarillo",
+      "d": "Verde",
+      "e": "Naranja"
+    },
+    "Q183": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Letras alfabeto español?",
+      "d": "27",
+      "e": "29"
+    },
+    "Q184": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Río más largo?",
+      "d": "Amazonas",
+      "e": "Nilo"
+    },
+    "Q185": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Animal signo zodiacal chino",
+      "d": "Tigre",
+      "e": "León"
+    },
+    "Q186": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Metal más denso",
+      "d": "Osmio",
+      "e": "Hierro"
+    },
+    "Q187": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿'El principito'?",
+      "d": "Saint-Exupéry",
+      "e": "Borges"
+    },
+    "Q188": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Continentes en el mundo",
+      "d": "Siete",
+      "e": "Seis"
+    },
+    "Q189": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿'La Mona Lisa'?",
+      "d": "Da Vinci",
+      "e": "Michelangelo"
+    },
+    "Q190": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Montaña más alta del mundo",
+      "d": "Everest",
+      "e": "K2"
+    },
+    "Q191": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Instrumento con arco",
+      "d": "Violín",
+      "e": "Guitarra"
+    },
+    "Q192": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Moneda oficial de Japón?",
+      "d": "Yen",
+      "e": "Dólar"
+    },
+    "Q193": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿'La persistencia de la memoria'?",
+      "d": "Dalí",
+      "e": "Picasso"
+    },
+    "Q194": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Patas de un insecto",
+      "d": "Seis",
+      "e": "Ocho"
+    },
+    "Q195": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Planeta más cercano al sol?",
+      "d": "Mercurio",
+      "e": "Venus"
+    },
+    "Q196": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿'Don Quijote de la Mancha'?",
+      "d": "Cervantes",
+      "e": "G.G Márquez"
+    },
+    "Q197": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "¿Rojo y Azul",
+      "d": "Violeta",
+      "e": "Naranja"
+    },
+    "Q198": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Patas de un insecto?",
+      "d": "Seis",
+      "e": "Cuatro"
+    },
+    "Q199": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿'El Aleph'?",
+      "d": "Borges",
+      "e": "Neruda"
+    },
+    "Q200": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Huesos del cuerpo humano",
+      "d": "Doscientos seis",
+      "e": "Ciento veinte"
+    },
+    "Q201": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Grados triángulo en su ángulo recto",
+      "d": "Noventa",
+      "e": "Ciento ochenta"
+    },
+    "Q202": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Árbol más alto del mundo",
+      "d": "Secuoya gigante",
+      "e": "Eucalipto"
+    },
+    "Q203": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Dientes temporales en un niño",
+      "d": "Veinte",
+      "e": "Diez"
+    },
+    "Q204": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Cuál es la capital de España?",
+      "d": "Madrid",
+      "e": "Barcelona"
+    },
+    "Q205": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿'Guernica'?",
+      "d": "Picasso",
+      "e": "Van Gogh"
+    },
+    "Q206": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Saborear los alimentos",
+      "d": "Lengua",
+      "e": "Nariz"
+    },
+    "Q207": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Italia?",
+      "d": "Roma",
+      "e": "Milán"
+    },
+    "Q208": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿'El viejo y el mar'?",
+      "d": "Hemingway",
+      "e": "Fitzgerald"
+    },
+    "Q209": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Caras de un cubo",
+      "d": "Seis",
+      "e": "Cuatro"
+    },
+    "Q210": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Días en año bisiesto?",
+      "d": "366",
+      "e": "365"
+    },
+    "Q211": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Animal más rápido del mundo?",
+      "d": "Guepardo",
+      "e": "Leopardo"
+    },
+    "Q212": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Jugadores en equipo de fútbol",
+      "d": "Once",
+      "e": "Diez"
+    },
+    "Q213": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿País más grande del mundo?",
+      "d": "Rusia",
+      "e": "China"
+    },
+    "Q214": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Pintó 'El grito'",
+      "d": "Munch",
+      "e": "Da Vinci"
+    },
+    "Q215": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Se utiliza para oír",
+      "d": "Oído",
+      "e": "Nariz"
+    },
+    "Q216": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Minutos en una hora?",
+      "d": "Sesenta",
+      "e": "Setenta"
+    },
+    "Q217": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿'Crimen y castigo'?",
+      "d": "Dostoyevsky",
+      "e": "Tolstoy"
+    },
+    "Q218": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Pentágono",
+      "d": "Cinco",
+      "e": "Seis"
+    },
+    "Q219": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Rusia?",
+      "d": "Moscú",
+      "e": "S. Petersburgo"
+    },
+    "Q220": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Quién escribió '1984'?",
+      "d": "Orwell",
+      "e": "Huxley"
+    },
+    "Q221": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Escribió 'La Iliada'?",
+      "d": "Homero",
+      "e": "Virgilio"
+    },
+    "Q222": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Estaciones en el año",
+      "d": "Cuatro",
+      "e": "Seis"
+    },
+    "Q223": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Patas en una araña?",
+      "d": "Ocho",
+      "e": "Seis"
+    },
+    "Q224": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿'Moby Dick'?",
+      "d": "Melville",
+      "e": "E.A. Poe"
+    },
+    "Q225": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Letras en 'Computadora'",
+      "d": "Doce",
+      "e": "Diez"
+    },
+    "Q226": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de EEUU?",
+      "d": "Washington D.C.",
+      "e": "Nueva York"
+    },
+    "Q227": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿'Orgullo y prejuicio'?",
+      "d": "Austen",
+      "e": "Brontë"
+    },
+    "Q228": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Dedos en una mano",
+      "d": "Cinco",
+      "e": "Seis"
+    },
+    "Q229": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Francia?",
+      "d": "París",
+      "e": "Berlín"
+    },
+    "Q230": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿'La metamorfosis'?",
+      "d": "Kafka",
+      "e": "Dostoyevsky"
+    },
+    "Q231": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Elementos tabla periódica",
+      "d": "118",
+      "e": "128"
     }
+  }
 }
