@@ -1186,7 +1186,7 @@
     "Q170": {
       "a": "E",
       "b": "Sleeper",
-      "c": "Se celebra el día de la madre",
+      "c": "Mes de la madre",
       "d": "Mayo",
       "e": "Abril"
     },
@@ -1306,7 +1306,7 @@
       "a": "H",
       "b": "Sleeper",
       "c": "¿'El principito'?",
-      "d": "Saint-Exupéry",
+      "d": "S.Exupéry",
       "e": "Borges"
     },
     "Q188": {
@@ -1361,7 +1361,7 @@
     "Q195": {
       "a": "N",
       "b": "Sleeper",
-      "c": "¿Planeta más cercano al sol?",
+      "c": "¿Planeta cercano al sol?",
       "d": "Mercurio",
       "e": "Venus"
     },
@@ -1397,29 +1397,29 @@
       "a": "E",
       "b": "Sleeper",
       "c": "Huesos del cuerpo humano",
-      "d": "Doscientos seis",
-      "e": "Ciento veinte"
+      "d": "206",
+      "e": "190"
     },
     "Q201": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Grados triángulo en su ángulo recto",
-      "d": "Noventa",
-      "e": "Ciento ochenta"
+      "c": "Grados en un triángulo",
+      "d": "180",
+      "e": "360"
     },
     "Q202": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Árbol más alto del mundo",
-      "d": "Secuoya gigante",
+      "c": "Árbol más alto",
+      "d": "Secuoya",
       "e": "Eucalipto"
     },
     "Q203": {
       "a": "E",
       "b": "Sleeper",
-      "c": "Dientes temporales en un niño",
-      "d": "Veinte",
-      "e": "Diez"
+      "c": "Dientes temporales en niños",
+      "d": "20",
+      "e": "24"
     },
     "Q204": {
       "a": "N",
@@ -1569,7 +1569,7 @@
       "e": "E.A. Poe"
     },
     "Q225": {
-      "a": "E",
+      "a": "N",
       "b": "Sleeper",
       "c": "Letras en 'Computadora'",
       "d": "Doce",
@@ -1611,11 +1611,18 @@
       "e": "Dostoyevsky"
     },
     "Q231": {
-      "a": "E",
+      "a": "H",
       "b": "Sleeper",
       "c": "Elementos tabla periódica",
       "d": "118",
       "e": "128"
+    },
+    "Q232": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Océano más pequeño",
+      "d": "Atlántico",
+      "e": "Pacífico"
     }
   }
 }

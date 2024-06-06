@@ -17,6 +17,9 @@ class Home extends Phaser.Scene {
         this.load.image("modeH", "/assets/images/Dificil.png");
         this.load.image("exit", "/assets/images/Salir.png");
 
+        this.load.image("sleeper", "/assets/images/Trivia.png");
+        this.load.image("couple", "/assets/images/Pares.png");
+
         this.load.image("marcos0r", "/assets/images/Marcos Right 0.png");
         this.load.image("marcos1r", "/assets/images/Marcos Right 1.png");
         this.load.image("marcos2r", "/assets/images/Marcos Right 2.png");
@@ -68,10 +71,30 @@ class Home extends Phaser.Scene {
 
         var now = this;
 
-        //Button Level         
+        //Button Play         
         this.play.on('pointerdown', () => {
-            sound.stop();
-            now.scene.switch('Sleeper');
+
+            now.infoModal = {
+                msj: 'Elige un juego',
+                confirm: '',
+                back: 'X'
+            }
+            now.modal = now.scene.get('Modal');
+            now.modal.getWorldModal(now).then(response => {
+                switch(response){
+                    case 'sleeper':
+                        sound.stop();
+                        now.scene.switch('Sleeper');
+                        break;
+                    case 'couple':
+                        sound.stop();
+                        now.scene.switch('Couple');
+                         break;
+                    default:
+                        break;
+                    break;
+                }                
+            });
         });
 
         //Button Level         

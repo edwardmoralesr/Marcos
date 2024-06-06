@@ -11,7 +11,7 @@ class Question extends Phaser.Scene {
 
     getTime(now) {
 
-        this.timeLife = 4;
+        this.timeLife = 5;
         const screenWidth = now.sys.game.config.width;
         const screenHeight = now.sys.game.config.height;
 
