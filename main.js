@@ -1,25 +1,26 @@
-import './style.css';
-import Phaser from 'phaser';
-import Home from './public/objects/home';
-import Modal from './public/objects/modal';
-import Sleeper from './public/objects/sleeper';
-import Question from './public/utils/question';
-import Player from './public/utils/player';
+import "./style.css";
+import Phaser from "phaser";
+import Home from "./public/objects/home";
+import Modal from "./public/objects/modal";
+import Sleeper from "./public/objects/sleeper";
+import Question from "./public/utils/question";
+import Player from "./public/utils/player";
+import Couple from "./public/objects/couple";
 
 class Main extends Phaser.Scene {
   constructor() {
-    super({ key: 'Main' });
+    super({ key: "Main" });
   }
 
   preload() {
     this.load.image("ike", "/assets/images/background_IKE.png");
     this.load.image("bl", "/assets/images/blbackground.png");
 
-    this.load.json('knowledge', '/utils/knowledge.json');
+    this.load.json("knowledge", "/utils/knowledge.json");
   }
 
   create() {
-    ENV.KNOWLEDGE = this.cache.json.get('knowledge');
+    ENV.KNOWLEDGE = this.cache.json.get("knowledge");
 
     var imageGroup = this.add.group();
 
@@ -51,15 +52,15 @@ class Main extends Phaser.Scene {
             targets: image,
             alpha: 1,
             duration: fadeDuration,
-            ease: 'Linear'
+            ease: "Linear",
           });
         },
-        callbackScope: this
+        callbackScope: this,
       });
     });
     setTimeout(function () {
-      scene.scene.start('Home');
-    }, 5000)
+      scene.scene.start("Home");
+    }, 5000);
     console.log(ENV.MSJ);
   }
 }
@@ -70,9 +71,9 @@ const config = {
   height: ENV.HEIGHT_APP,
   canvas: mainCanvas,
   physics: {
-    default: "arcade"
+    default: "arcade",
   },
-  scene: [Main, Modal, Home, Sleeper, Question, Player]
-}
+  scene: [Main, Modal, Home, Sleeper, Question, Player, Couple],
+};
 
-const game = new Phaser.Game(config)
+const game = new Phaser.Game(config);
