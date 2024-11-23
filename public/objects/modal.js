@@ -311,7 +311,9 @@ class Modal extends Phaser.Scene {
         back: "No",
       };
 
-      now.soundLost.play();
+      if (ENV.SOUND) {
+        now.soundLost.play();
+      }
       if (now.scene.key == "Sleeper") now.background_gameover.setVisible(true);
       if (now.soundBg) now.soundBg.stop();
       if (now.soundBg1) now.soundBg1.stop();
@@ -450,7 +452,9 @@ class Modal extends Phaser.Scene {
         .text(
           modalX + modalWidth / 2,
           (modalY + modalHeight / 2) * 1.07,
-          "¡¡¡WINNER!!!",
+          ENV.VERSUS == "CPU"
+            ? "¡¡¡GANASTE!!!"
+            : "¡¡GANASTE " + now.turn + "P!!",
           { fontStyle: "bolder", fontSize: "47.4px", fill: ENV.FONT_COLOR }
         )
         .setOrigin(0.5);

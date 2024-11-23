@@ -13,7 +13,7 @@ class Main extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("ike", "/assets/images/background_IKE.png");
+    this.load.image("ike", "/assets/images/LogoAicacia.png");
     this.load.image("bl", "/assets/images/blbackground.png");
 
     this.load.json("knowledge", "/utils/knowledge.json");
@@ -32,10 +32,10 @@ class Main extends Phaser.Scene {
 
     imageGroup.setVisible(false);
 
-    this.ike.setDisplaySize(screenWidth, screenHeight);
+    this.ike.setOrigin(0.115, 0);
+    this.ike.setDisplaySize(540, 900);
     this.blBackground.setDisplaySize(screenWidth, screenHeight);
 
-    this.ike.setOrigin(0, 0);
     this.blBackground.setOrigin(0, 0);
 
     var delay = 3000;

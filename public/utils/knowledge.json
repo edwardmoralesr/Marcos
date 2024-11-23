@@ -907,8 +907,8 @@
       "a": "N",
       "b": "Sleeper",
       "c": "¿Velocidad de la luz?",
-      "d": "300 mil km/s",
-      "e": "300 mil km/h"
+      "d": "300mil km/s",
+      "e": "300mil km/h"
     },
     "Q131": {
       "a": "H",
@@ -1173,7 +1173,7 @@
       "a": "H",
       "b": "Sleeper",
       "c": "¿'Cien años de soledad'?",
-      "d": "G.G Márquez",
+      "d": "G. Márquez",
       "e": "P. Neruda"
     },
     "Q169": {
@@ -1370,7 +1370,7 @@
       "b": "Sleeper",
       "c": "¿'Don Quijote de la Mancha'?",
       "d": "Cervantes",
-      "e": "G.G Márquez"
+      "e": "G. Márquez"
     },
     "Q197": {
       "a": "E",
@@ -1424,7 +1424,7 @@
     "Q204": {
       "a": "N",
       "b": "Sleeper",
-      "c": "¿Cuál es la capital de España?",
+      "c": "¿Capital de España?",
       "d": "Madrid",
       "e": "Barcelona"
     },
@@ -1531,7 +1531,7 @@
       "b": "Sleeper",
       "c": "¿Capital de Rusia?",
       "d": "Moscú",
-      "e": "S. Petersburgo"
+      "e": "Petersburgo"
     },
     "Q220": {
       "a": "H",
@@ -1623,6 +1623,1196 @@
       "c": "Océano más pequeño",
       "d": "Atlántico",
       "e": "Pacífico"
+    },
+    "Q233": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón primer Mundial",
+      "d": "Uruguay",
+      "e": "Brasil"
+    },
+    "Q234": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón primer Mundial",
+      "d": "Uruguay",
+      "e": "Brasil"
+    },
+    "Q235": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1930",
+      "d": "Uruguay",
+      "e": "Argentina"
+    },
+    "Q236": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1930",
+      "d": "Uruguay",
+      "e": "Argentina"
+    },
+    "Q237": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1930",
+      "d": "Uruguay",
+      "e": "Argentina"
+    },
+    "Q238": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1930",
+      "d": "Uruguay",
+      "e": "Argentina"
+    },
+    "Q239": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1934",
+      "d": "Italia",
+      "e": "Argentina"
+    },
+    "Q240": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1934",
+      "d": "Italia",
+      "e": "Argentina"
+    },
+    "Q241": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1934",
+      "d": "Italia",
+      "e": "Argentina"
+    },
+    "Q242": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1934",
+      "d": "Italia",
+      "e": "Argentina"
+    },
+    "Q243": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1938",
+      "d": "Italia",
+      "e": "Hungría"
+    },
+    "Q244": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1938",
+      "d": "Italia",
+      "e": "Hungría"
+    },
+    "Q245": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1938",
+      "d": "Francia",
+      "e": "Brasil"
+    },
+    "Q246": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1938",
+      "d": "Francia",
+      "e": "Brasil"
+    },
+    "Q247": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1950",
+      "d": "Uruguay",
+      "e": "Brasil"
+    },
+    "Q248": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1950",
+      "d": "Uruguay",
+      "e": "Brasil"
+    },
+    "Q249": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1950",
+      "d": "Brasil",
+      "e": "Uruguay"
+    },
+    "Q250": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1950",
+      "d": "Brasil",
+      "e": "Uruguay"
+    },
+    "Q251": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1954",
+      "d": "Alemania",
+      "e": "Hungría"
+    },
+    "Q252": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1954",
+      "d": "Alemania",
+      "e": "Hungría"
+    },
+    "Q253": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1954",
+      "d": "Suiza",
+      "e": "Suecia"
+    },
+    "Q254": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1954",
+      "d": "Suiza",
+      "e": "Suecia"
+    },
+    "Q255": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1958",
+      "d": "Brasil",
+      "e": "Alemania"
+    },
+    "Q256": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1958",
+      "d": "Brasil",
+      "e": "Alemania"
+    },
+    "Q257": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1958",
+      "d": "Suecia",
+      "e": "Brasil"
+    },
+    "Q258": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1958",
+      "d": "Suecia",
+      "e": "Brasil"
+    },
+    "Q259": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1962",
+      "d": "Brasil",
+      "e": "Francia"
+    },
+    "Q260": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1962",
+      "d": "Brasil",
+      "e": "Francia"
+    },
+    "Q261": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1962",
+      "d": "Chile",
+      "e": "Inglaterra"
+    },
+    "Q262": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1962",
+      "d": "Chile",
+      "e": "Inglaterra"
+    },
+    "Q263": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1966",
+      "d": "Inglaterra",
+      "e": "Alemania"
+    },
+    "Q264": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1966",
+      "d": "Inglaterra",
+      "e": "Alemania"
+    },
+    "Q265": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1966",
+      "d": "Inglaterra",
+      "e": "Alemania"
+    },
+    "Q266": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1966",
+      "d": "Inglaterra",
+      "e": "Alemania"
+    },
+    "Q267": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1970",
+      "d": "Brasil",
+      "e": "Italia"
+    },
+    "Q268": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1970",
+      "d": "Brasil",
+      "e": "Italia"
+    },
+    "Q269": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1970",
+      "d": "México",
+      "e": "Brasil"
+    },
+    "Q270": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1970",
+      "d": "México",
+      "e": "Brasil"
+    },
+    "Q271": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1974",
+      "d": "Alemania",
+      "e": "P. Bajos"
+    },
+    "Q272": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1974",
+      "d": "Alemania",
+      "e": "P. Bajos"
+    },
+    "Q273": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1974",
+      "d": "Alemania",
+      "e": "España"
+    },
+    "Q274": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1974",
+      "d": "Alemania",
+      "e": "España"
+    },
+    "Q275": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1978",
+      "d": "Argentina",
+      "e": "P. Bajos"
+    },
+    "Q276": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1978",
+      "d": "Argentina",
+      "e": "P. Bajos"
+    },
+    "Q277": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1978",
+      "d": "Argentina",
+      "e": "Alemania"
+    },
+    "Q278": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1978",
+      "d": "Argentina",
+      "e": "Alemania"
+    },
+    "Q279": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1982",
+      "d": "Italia",
+      "e": "Alemania"
+    },
+    "Q280": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1982",
+      "d": "Italia",
+      "e": "Alemania"
+    },
+    "Q281": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1982",
+      "d": "España",
+      "e": "Italia"
+    },
+    "Q282": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1982",
+      "d": "España",
+      "e": "Italia"
+    },
+    "Q283": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1986",
+      "d": "Argentina",
+      "e": "Alemania"
+    },
+    "Q284": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1986",
+      "d": "Argentina",
+      "e": "Alemania"
+    },
+    "Q285": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1986",
+      "d": "México",
+      "e": "Italia"
+    },
+    "Q286": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1986",
+      "d": "México",
+      "e": "Italia"
+    },
+    "Q287": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1990",
+      "d": "Alemania",
+      "e": "Argentina"
+    },
+    "Q288": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1990",
+      "d": "Alemania",
+      "e": "Argentina"
+    },
+    "Q289": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1990",
+      "d": "Italia",
+      "e": "E.E.U.U"
+    },
+    "Q290": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1990",
+      "d": "Italia",
+      "e": "E.E.U.U"
+    },
+    "Q291": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1994",
+      "d": "Brasil",
+      "e": "Italia"
+    },
+    "Q292": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1994",
+      "d": "Brasil",
+      "e": "Italia"
+    },
+    "Q293": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1994",
+      "d": "E.E.U.U",
+      "e": "Francia"
+    },
+    "Q294": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1994",
+      "d": "E.E.U.U",
+      "e": "Francia"
+    },
+    "Q295": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1998",
+      "d": "Francia",
+      "e": "Brasil"
+    },
+    "Q296": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 1998",
+      "d": "Francia",
+      "e": "Brasil"
+    },
+    "Q297": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1998",
+      "d": "Francia",
+      "e": "Brasil"
+    },
+    "Q298": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 1998",
+      "d": "Francia",
+      "e": "Brasil"
+    },
+    "Q299": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2002",
+      "d": "Brasil",
+      "e": "Alemania"
+    },
+    "Q300": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2002",
+      "d": "Brasil",
+      "e": "Alemania"
+    },
+    "Q301": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2002",
+      "d": "Brasil",
+      "e": "Alemania"
+    },
+    "Q302": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2002",
+      "d": "K.-Japón",
+      "e": "Alemania"
+    },
+    "Q303": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2002",
+      "d": "K.-Japón",
+      "e": "Alemania"
+    },
+    "Q304": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2002",
+      "d": "K.-Japón",
+      "e": "Alemania"
+    },
+    "Q305": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2006",
+      "d": "Italia",
+      "e": "Francia"
+    },
+    "Q306": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2006",
+      "d": "Italia",
+      "e": "Francia"
+    },
+    "Q307": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2006",
+      "d": "Italia",
+      "e": "Francia"
+    },
+    "Q308": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2006",
+      "d": "Alemania",
+      "e": "K.-Japón"
+    },
+    "Q309": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2006",
+      "d": "Alemania",
+      "e": "K.-Japón"
+    },
+    "Q310": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2006",
+      "d": "Alemania",
+      "e": "K.-Japón"
+    },
+    "Q311": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2010",
+      "d": "España",
+      "e": "Alemania"
+    },
+    "Q312": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2010",
+      "d": "España",
+      "e": "Alemania"
+    },
+    "Q313": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2010",
+      "d": "España",
+      "e": "Alemania"
+    },
+    "Q314": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2010",
+      "d": "Sudáfrica",
+      "e": "Brasil"
+    },
+    "Q315": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2010",
+      "d": "Sudáfrica",
+      "e": "Brasil"
+    },
+    "Q316": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2010",
+      "d": "Sudáfrica",
+      "e": "Brasil"
+    },
+    "Q317": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2014",
+      "d": "Alemania",
+      "e": "Argentina"
+    },
+    "Q318": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2014",
+      "d": "Alemania",
+      "e": "Argentina"
+    },
+    "Q319": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2014",
+      "d": "Alemania",
+      "e": "Argentina"
+    },
+    "Q320": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2014",
+      "d": "Brasil",
+      "e": "Sudáfrica"
+    },
+    "Q321": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2014",
+      "d": "Brasil",
+      "e": "Sudáfrica"
+    },
+    "Q322": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2014",
+      "d": "Brasil",
+      "e": "Sudáfrica"
+    },
+    "Q323": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2018",
+      "d": "Francia",
+      "e": "Argentina"
+    },
+    "Q324": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2018",
+      "d": "Francia",
+      "e": "Argentina"
+    },
+    "Q325": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2018",
+      "d": "Francia",
+      "e": "Argentina"
+    },
+    "Q326": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2018",
+      "d": "Rusia",
+      "e": "Qatar"
+    },
+    "Q327": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2018",
+      "d": "Rusia",
+      "e": "Qatar"
+    },
+    "Q328": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2018",
+      "d": "Rusia",
+      "e": "Qatar"
+    },
+    "Q329": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2022",
+      "d": "Argentina",
+      "e": "Francia"
+    },
+    "Q330": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2022",
+      "d": "Argentina",
+      "e": "Francia"
+    },
+    "Q331": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Campeón Mundial 2022",
+      "d": "Argentina",
+      "e": "Francia"
+    },
+    "Q332": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2022",
+      "d": "Qatar",
+      "e": "Rusia"
+    },
+    "Q333": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2022",
+      "d": "Qatar",
+      "e": "Rusia"
+    },
+    "Q334": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Sede Mundial 2022",
+      "d": "Qatar",
+      "e": "Rusia"
+    },
+    "Q335": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Más ganador Mundial",
+      "d": "Brasil",
+      "e": "Alemania"
+    },
+    "Q336": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Más ganador Mundial",
+      "d": "Brasil",
+      "e": "Alemania"
+    },
+    "Q337": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Más ganador Mundial",
+      "d": "Brasil",
+      "e": "Alemania"
+    },
+    "Q338": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Brasil Campeón Mundial",
+      "d": "5 veces",
+      "e": "6 veces"
+    },
+    "Q339": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Brasil Campeón Mundial",
+      "d": "5 veces",
+      "e": "6 veces"
+    },
+    "Q340": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Brasil Campeón Mundial",
+      "d": "5 veces",
+      "e": "6 veces"
+    },
+    "Q341": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Alemania Campeón Mundial",
+      "d": "4 veces",
+      "e": "3 veces"
+    },
+    "Q342": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Alemania Campeón Mundial",
+      "d": "4 veces",
+      "e": "3 veces"
+    },
+    "Q343": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Alemania Campeón Mundial",
+      "d": "4 veces",
+      "e": "3 veces"
+    },
+    "Q344": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Italia Campeón Mundial",
+      "d": "4 veces",
+      "e": "3 veces"
+    },
+    "Q345": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Italia Campeón Mundial",
+      "d": "4 veces",
+      "e": "3 veces"
+    },
+    "Q346": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Italia Campeón Mundial",
+      "d": "4 veces",
+      "e": "3 veces"
+    },
+    "Q347": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Argentina Campeón Mundial",
+      "d": "3 veces",
+      "e": "4 veces"
+    },
+    "Q348": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Argentina Campeón Mundial",
+      "d": "3 veces",
+      "e": "4 veces"
+    },
+    "Q349": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Argentina Campeón Mundial",
+      "d": "3 veces",
+      "e": "4 veces"
+    },
+    "Q350": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Uruguay Campeón Mundial",
+      "d": "2 veces",
+      "e": "3 veces"
+    },
+    "Q351": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Uruguay Campeón Mundial",
+      "d": "2 veces",
+      "e": "3 veces"
+    },
+    "Q352": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Uruguay Campeón Mundial",
+      "d": "2 veces",
+      "e": "3 veces"
+    },
+    "Q353": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Francia Campeón Mundial",
+      "d": "2 veces",
+      "e": "3 veces"
+    },
+    "Q354": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Francia Campeón Mundial",
+      "d": "2 veces",
+      "e": "3 veces"
+    },
+    "Q355": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Francia Campeón Mundial",
+      "d": "2 veces",
+      "e": "3 veces"
+    },
+    "Q356": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Inglaterra Campeón Mundial",
+      "d": "1 vez",
+      "e": "3 veces"
+    },
+    "Q357": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Inglaterra Campeón Mundial",
+      "d": "1 vez",
+      "e": "3 veces"
+    },
+    "Q358": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Inglaterra Campeón Mundial",
+      "d": "1 vez",
+      "e": "3 veces"
+    },
+    "Q359": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "España Campeón Mundial",
+      "d": "1 vez",
+      "e": "2 veces"
+    },
+    "Q360": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "España Campeón Mundial",
+      "d": "1 vez",
+      "e": "2 veces"
+    },
+    "Q361": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "España Campeón Mundial",
+      "d": "1 vez",
+      "e": "2 veces"
+    },
+    "Q362": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Cantidad Campeones Mund.",
+      "d": "8",
+      "e": "9"
+    },
+    "Q363": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Cantidad Campeones Mund.",
+      "d": "8",
+      "e": "9"
+    },
+    "Q364": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Cantidad Campeones Mund.",
+      "d": "8",
+      "e": "9"
+    },
+    "Q365": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeones Mund. Europeos",
+      "d": "5",
+      "e": "6"
+    },
+    "Q366": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeones Mund. Europeos",
+      "d": "5",
+      "e": "6"
+    },
+    "Q367": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Campeones Mund. Europeos",
+      "d": "5",
+      "e": "6"
+    },
+    "Q368": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Campeones Mund. América",
+      "d": "3",
+      "e": "4"
+    },
+    "Q369": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Campeones Mund. América",
+      "d": "3",
+      "e": "4"
+    },
+    "Q370": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Campeones Mund. América",
+      "d": "3",
+      "e": "4"
+    },
+    "Q371": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Metal más pesado",
+      "d": "Osmio",
+      "e": "Plomo"
+    },
+    "Q372": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Metal más pesado",
+      "d": "Osmio",
+      "e": "Plomo"
+    },
+    "Q373": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Llueve en Júpiter",
+      "d": "Helio",
+      "e": "Diamantes"
+    },
+    "Q374": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Llueve en Júpiter",
+      "d": "Hidrógeno",
+      "e": "Ácido Sulf."
+    },
+    "Q375": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Llueve en Venus",
+      "d": "Ácido Sulf.",
+      "e": "Helio"
+    },
+    "Q376": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Llueve en Neptuno",
+      "d": "Diamantes",
+      "e": "Helio"
+    },
+    "Q377": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Llueve en Júpiter",
+      "d": "Helio",
+      "e": "Diamantes"
+    },
+    "Q378": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Llueve en Júpiter",
+      "d": "Hidrógeno",
+      "e": "Ácido Sulf."
+    },
+    "Q379": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Llueve en Venus",
+      "d": "Ácido Sulf.",
+      "e": "Helio"
+    },
+    "Q380": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Llueve en Neptuno",
+      "d": "Diamantes",
+      "e": "Helio"
+    },
+    "Q381": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Cantidad lunas Júpiter",
+      "d": "69",
+      "e": "79"
+    },
+    "Q382": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Cantidad lunas Júpiter",
+      "d": "69",
+      "e": "79"
+    },
+    "Q383": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Una pulgada en cm",
+      "d": "2.54",
+      "e": "2.57"
+    },
+    "Q384": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Una pulgada en cm",
+      "d": "2.54",
+      "e": "2.57"
+    },
+    "Q385": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Una pulgada en cm",
+      "d": "2.54",
+      "e": "2.57"
+    },
+    "Q386": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Un metro en pulgadas",
+      "d": "39.37",
+      "e": "33.49"
+    },
+    "Q387": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Un metro en pulgadas",
+      "d": "39.37",
+      "e": "33.49"
+    },
+    "Q388": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Un metro en pulgadas",
+      "d": "39.37",
+      "e": "33.49"
+    },
+    "Q389": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Un pie en cm",
+      "d": "30.48",
+      "e": "32.10"
+    },
+    "Q390": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Un pie en cm",
+      "d": "30.48",
+      "e": "32.10"
+    },
+    "Q391": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Un pie en cm",
+      "d": "30.48",
+      "e": "32.10"
+    },
+    "Q392": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Un metro en pies",
+      "d": "3.28",
+      "e": "3.04"
+    },
+    "Q393": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Un metro en pies",
+      "d": "3.28",
+      "e": "3.04"
+    },
+    "Q394": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Lenguaje de programación",
+      "d": "C#",
+      "e": "HTML"
+    },
+    "Q395": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Lenguaje de programación",
+      "d": "C#",
+      "e": "HTML"
+    },
+    "Q396": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Lenguaje de programación",
+      "d": "C#",
+      "e": "HTML"
+    },
+    "Q397": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sistema Operativo",
+      "d": "Software",
+      "e": "Hardware"
+    },
+    "Q398": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Sistema Operativo",
+      "d": "Software",
+      "e": "Hardware"
+    },
+    "Q399": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Sistema Operativo",
+      "d": "Software",
+      "e": "Hardware"
+    },
+    "Q400": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Módem",
+      "d": "Hardware",
+      "e": "Software"
+    },
+    "Q401": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Módem",
+      "d": "Hardware",
+      "e": "Software"
+    },
+    "Q402": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Módem",
+      "d": "Hardware",
+      "e": "Software"
     }
   }
 }

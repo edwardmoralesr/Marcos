@@ -38,7 +38,7 @@ main {
 }
 
 #mainCanvas {
-  border: 1px solid crimson;
+  border: 1px solid transparent;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -48,7 +48,7 @@ main {
 }
 
 #homeCanvas {
-  border: 1px solid crimson;
+  border: 1px solid transparent;
   position: absolute;
   top: 50%;
   left: 50%;

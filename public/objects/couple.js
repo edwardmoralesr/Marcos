@@ -5,7 +5,8 @@ class Couple extends Phaser.Scene {
   constructor() {
     super({ key: "Couple" });
   }
-  player = "";
+  player1 = "";
+  player2 = "";
   ordenArray = [];
   try = 0;
   a = 0;
@@ -13,12 +14,15 @@ class Couple extends Phaser.Scene {
   btnA = null;
   btnB = null;
   point = 0;
-  pointLife = 0;
+  pointLife1 = 0;
+  pointLife2 = 0;
+  turn = 1;
 
   preload() {
     this.load.image("bgCouple", "/assets/images/background_couple.png");
     this.load.image("card", "/assets/images/Card.png");
-    this.load.image("imgLPCouple", "/assets/images/LP.png");
+    this.load.image("LP", "/assets/images/LP.png");
+    this.load.image("LPG", "/assets/images/LPG.png");
 
     this.load.image("coup1", "/assets/images/Coup1.png");
     this.load.image("coup2", "/assets/images/Coup2.png");
@@ -39,7 +43,8 @@ class Couple extends Phaser.Scene {
   }
 
   create() {
-    this.player = "";
+    this.player1 = "";
+    this.player2 = "";
     this.ordenArray = [];
     this.try = 0;
     this.a = 0;
@@ -47,7 +52,9 @@ class Couple extends Phaser.Scene {
     this.btnA = null;
     this.btnB = null;
     this.point = 0;
-    this.pointLife = 0;
+    this.pointLife1 = 0;
+    this.pointLife2 = 0;
+    this.turn = 1;
 
     this.soundPointCouple = this.sound.add("soundPointCouple");
     this.soundLost = this.sound.add("soundLost");
@@ -63,9 +70,11 @@ class Couple extends Phaser.Scene {
     this.background_couple.setDisplaySize(screenWidth, screenHeight);
     this.background_couple.setOrigin(0, 0);
 
-    this.soundBg.play({
-      loop: true,
-    });
+    if (ENV.SOUND) {
+      this.soundBg.play({
+        loop: true,
+      });
+    }
 
     var i = 1;
     this.randomOrdenArray();
@@ -76,7 +85,10 @@ class Couple extends Phaser.Scene {
         i++;
       }
     }, 2000);
-    this.pointLife = ENV.LEVEL == "E" ? 9 : ENV.LEVEL == "N" ? 6 : 3;
+    this.pointLife1 = ENV.LEVEL == "E" ? 9 : ENV.LEVEL == "N" ? 6 : 3;
+    if (ENV.VERSUS == "2P") {
+      this.pointLife2 = ENV.LEVEL == "E" ? 9 : ENV.LEVEL == "N" ? 6 : 3;
+    }
     this.getPointLife(null);
     this.getTime();
   }
@@ -130,15 +142,12 @@ class Couple extends Phaser.Scene {
   }
 
   visibleCard(btn) {
-    //debugger;
     var pos = btn.name.replace("card", "");
     btn.setTexture("coup" + this.ordenArray[pos - 1]);
     btn.setScale(0.235);
   }
 
   compare(btn) {
-    //debugger;
-
     var value = btn.name;
 
     this.try = this.try == 0 ? 1 : this.try == 1 ? 2 : 1;
@@ -150,8 +159,12 @@ class Couple extends Phaser.Scene {
 
     this.a = this.try == 1 ? value.replace("card", "") : this.a;
     this.b = this.try == 2 ? value.replace("card", "") : this.b;
-    //debugger;
-    if (this.try == 1) this.soundSelect.play();
+
+    if (this.try == 1) {
+      if (ENV.SOUND) {
+        this.soundSelect.play();
+      }
+    }
     if (this.a != 0 && this.b != 0) {
       if (
         this.ordenArray[this.a - 1] == this.ordenArray[this.b - 1] &&
@@ -159,7 +172,9 @@ class Couple extends Phaser.Scene {
       ) {
         this.btnA.disableInteractive();
         this.btnB.disableInteractive();
-        this.soundPointCouple.play();
+        if (ENV.SOUND) {
+          this.soundPointCouple.play();
+        }
         this.point++;
         this.getPointLife("+");
       } else {
@@ -171,7 +186,9 @@ class Couple extends Phaser.Scene {
           },
           callbackScope: this,
         });
-        this.soundNoSelect.play();
+        if (ENV.SOUND) {
+          this.soundNoSelect.play();
+        }
         this.getPointLife("-");
       }
       this.a = 0;
@@ -179,12 +196,13 @@ class Couple extends Phaser.Scene {
 
       if (this.point == 9) {
         this.soundBg.stop();
-        this.soundWin.play();
+        if (ENV.SOUND) {
+          this.soundWin.play();
+        }
 
         this.modal = this.scene.get("Modal");
         this.eventTimer.destroy();
         this.modal.getWinnerModal(this).then((response) => {
-          //debugger;
           this.soundWin.stop();
           if (response) {
             this.scene.start("Couple");
@@ -202,6 +220,7 @@ class Couple extends Phaser.Scene {
   }
 
   getPointLife(point) {
+    debugger;
     const screenWidth = this.sys.game.config.width;
     const screenHeight = this.sys.game.config.height;
 
@@ -210,44 +229,57 @@ class Couple extends Phaser.Scene {
     const modalX = (screenWidth - modalWidth) / 2;
     const modalY = (screenHeight - modalHeight) / 2;
 
-    this.pointLife =
-      point == "+"
-        ? this.pointLife + 1
-        : point == "-"
-        ? this.pointLife - 1
-        : this.pointLife;
+    this.pointLife1 =
+      point == "+" && this.turn == 1
+        ? this.pointLife1 + 1
+        : point == "-" && this.turn == 1
+        ? this.pointLife1 - 1
+        : this.pointLife1;
 
-    if (this.score) {
-      this.score.setVisible(false);
+    if (this.score1) {
+      this.score1.setVisible(false);
     }
 
-    if (this.heartLifePoint) {
-      this.heartLifePoint.setVisible(false);
+    if (this.heartLifePoint1) {
+      this.heartLifePoint1.setVisible(false);
     }
 
-    this.heartLifePoint = this.add
-      .image(
-        (modalX + modalWidth / 2) * 0.24,
-        (modalY + modalHeight / 2) * 0.15,
-        "imgLPCouple"
-      )
-      .setOrigin(0.5)
-      .setScale(0.5);
-    this.score = this.add
+    this.player1 = this.add
       .text(
-        (modalX + modalWidth / 2) * 0.4,
-        (modalY + modalHeight / 2) * 0.15,
-        "x" + this.pointLife,
-        { fontStyle: "bolder", fontSize: "25.2px", fill: "#000" }
+        (modalX + modalWidth / 2) * 0.17,
+        (modalY + modalHeight / 2) * (ENV.VERSUS == "CPU" ? 0.15 : 0.07),
+        "1P",
+        { fontStyle: "bolder", fontSize: "25px", fill: "#000" }
       )
       .setOrigin(0.5);
 
-    if (this.pointLife == 0) {
+    this.heartLifePoint1 = this.add
+      .image(
+        (modalX + modalWidth / 2) * 0.35,
+        (modalY + modalHeight / 2) * (ENV.VERSUS == "CPU" ? 0.15 : 0.07),
+        point == null ||
+          ENV.VERSUS == "CPU" ||
+          (this.turn == 1 && point == "+") ||
+          (this.turn == 2 && point == "-")
+          ? "LP"
+          : "LPG"
+      )
+      .setOrigin(0.5)
+      .setScale(0.5);
+    this.score1 = this.add
+      .text(
+        (modalX + modalWidth / 2) * 0.51,
+        (modalY + modalHeight / 2) * (ENV.VERSUS == "CPU" ? 0.15 : 0.07),
+        "x" + this.pointLife1,
+        { fontStyle: "bolder", fontSize: "25px", fill: "#000" }
+      )
+      .setOrigin(0.5);
+
+    if (this.pointLife1 == 0) {
       this.modal = this.scene.get("Modal");
       this.eventTimer.destroy();
       this.hiddenCards();
       this.modal.getGameOverModal(this).then((response) => {
-        //debugger;
         if (response) {
           this.scene.start("Couple");
         } else {
@@ -255,6 +287,69 @@ class Couple extends Phaser.Scene {
         }
       });
     }
+
+    //2Player Logic
+    if (ENV.VERSUS == "2P") {
+      this.pointLife2 =
+        point == "+" && this.turn == 2
+          ? this.pointLife2 + 1
+          : point == "-" && this.turn == 2
+          ? this.pointLife2 - 1
+          : this.pointLife2;
+
+      if (this.score2) {
+        this.score2.setVisible(false);
+      }
+
+      if (this.heartLifePoint2) {
+        this.heartLifePoint2.setVisible(false);
+      }
+
+      this.player2 = this.add
+        .text(
+          (modalX + modalWidth / 2) * 0.17,
+          (modalY + modalHeight / 2) * 0.15,
+          "2P",
+          { fontStyle: "bolder", fontSize: "25px", fill: "#000" }
+        )
+        .setOrigin(0.5);
+
+      this.heartLifePoint2 = this.add
+        .image(
+          (modalX + modalWidth / 2) * 0.35,
+          (modalY + modalHeight / 2) * 0.15,
+          (this.turn == 2 && point == "+") || (this.turn == 1 && point == "-")
+            ? "LP"
+            : "LPG"
+        )
+        .setOrigin(0.5)
+        .setScale(0.5);
+      this.score2 = this.add
+        .text(
+          (modalX + modalWidth / 2) * 0.51,
+          (modalY + modalHeight / 2) * 0.15,
+          "x" + this.pointLife2,
+          { fontStyle: "bolder", fontSize: "25px", fill: "#000" }
+        )
+        .setOrigin(0.5);
+
+      if (this.pointLife2 == 0) {
+        this.modal = this.scene.get("Modal");
+        this.eventTimer.destroy();
+        this.hiddenCards();
+        this.modal.getGameOverModal(this).then((response) => {
+          if (response) {
+            this.scene.start("Couple");
+          } else {
+            this.scene.start("Home");
+          }
+        });
+      }
+    }
+    debugger;
+    if (ENV.VERSUS == "2P" && point != null)
+      this.turn =
+        point == "+" ? this.turn : point == "-" && this.turn == 1 ? 2 : 1;
   }
 
   hiddenCards() {
@@ -296,7 +391,7 @@ class Couple extends Phaser.Scene {
       delay: 1000,
       callback: function () {
         this.timeLife++;
-        this.timer.setText("TIME:" + this.timeLife);
+        this.timer.setText("TIME:" + (this.timeLife - 1));
       },
       callbackScope: this,
       loop: true,
