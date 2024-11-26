@@ -1438,9 +1438,9 @@
     "Q206": {
       "a": "E",
       "b": "Sleeper",
-      "c": "Saborear los alimentos",
-      "d": "Lengua",
-      "e": "Nariz"
+      "c": "Gato",
+      "d": "Felino",
+      "e": "Canino"
     },
     "Q207": {
       "a": "N",
@@ -1579,7 +1579,7 @@
       "a": "N",
       "b": "Sleeper",
       "c": "¿Capital de EEUU?",
-      "d": "Washington D.C.",
+      "d": "Washington",
       "e": "Nueva York"
     },
     "Q227": {
@@ -1592,8 +1592,8 @@
     "Q228": {
       "a": "E",
       "b": "Sleeper",
-      "c": "Dedos en una mano",
-      "d": "Cinco",
+      "c": "Tentáculos del pulpo",
+      "d": "Ocho",
       "e": "Seis"
     },
     "Q229": {
@@ -2532,42 +2532,42 @@
       "b": "Sleeper",
       "c": "Cantidad Campeones Mund.",
       "d": "8",
-      "e": "9"
+      "e": "7"
     },
     "Q363": {
       "a": "H",
       "b": "Sleeper",
       "c": "Cantidad Campeones Mund.",
       "d": "8",
-      "e": "9"
+      "e": "7"
     },
     "Q364": {
       "a": "E",
       "b": "Sleeper",
       "c": "Cantidad Campeones Mund.",
       "d": "8",
-      "e": "9"
+      "e": "7"
     },
     "Q365": {
       "a": "N",
       "b": "Sleeper",
       "c": "Campeones Mund. Europeos",
       "d": "5",
-      "e": "6"
+      "e": "4"
     },
     "Q366": {
       "a": "H",
       "b": "Sleeper",
       "c": "Campeones Mund. Europeos",
       "d": "5",
-      "e": "6"
+      "e": "4"
     },
     "Q367": {
       "a": "E",
       "b": "Sleeper",
       "c": "Campeones Mund. Europeos",
       "d": "5",
-      "e": "6"
+      "e": "4"
     },
     "Q368": {
       "a": "N",
@@ -2813,6 +2813,1042 @@
       "c": "Módem",
       "d": "Hardware",
       "e": "Software"
+    },
+    "Q403": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Andorra?",
+      "d": "A. la Vieja",
+      "e": "Escaldes-E"
+    },
+    "Q404": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Armenia?",
+      "d": "Ereván",
+      "e": "Gyumrí"
+    },
+    "Q405": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Austria?",
+      "d": "Viena",
+      "e": "Salzburgo"
+    },
+    "Q406": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Azerbaiyán?",
+      "d": "Bakú",
+      "e": "Ganja"
+    },
+    "Q407": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Bielorrusia?",
+      "d": "Minsk",
+      "e": "Gomel"
+    },
+    "Q408": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Bélgica?",
+      "d": "Bruselas",
+      "e": "Amberes"
+    },
+    "Q409": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Bosnia-H?",
+      "d": "Sarajevo",
+      "e": "Mostar"
+    },
+    "Q410": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Bulgaria?",
+      "d": "Sofía",
+      "e": "Plovdiv"
+    },
+    "Q411": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Chipre?",
+      "d": "Nicosia",
+      "e": "Limassol"
+    },
+    "Q412": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Croacia?",
+      "d": "Zagreb",
+      "e": "Dubrovnik"
+    },
+    "Q413": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Dinamarca?",
+      "d": "Copenhague",
+      "e": "Aarhus"
+    },
+    "Q414": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Eslovaquia?",
+      "d": "Bratislava",
+      "e": "Košice"
+    },
+    "Q415": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Eslovenia?",
+      "d": "Liubliana",
+      "e": "Maribor"
+    },
+    "Q416": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de España?",
+      "d": "Madrid",
+      "e": "Barcelona"
+    },
+    "Q417": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Estonia?",
+      "d": "Tallin",
+      "e": "Tartu"
+    },
+    "Q418": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Finlandia?",
+      "d": "Helsinki",
+      "e": "Turku"
+    },
+    "Q419": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Francia?",
+      "d": "París",
+      "e": "Marsella"
+    },
+    "Q420": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Georgia?",
+      "d": "Tiflis",
+      "e": "Batumi"
+    },
+    "Q421": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de G. Bretaña?",
+      "d": "Londres",
+      "e": "Manchester"
+    },
+    "Q422": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Grecia?",
+      "d": "Atenas",
+      "e": "Tesalónica"
+    },
+    "Q423": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Hungría?",
+      "d": "Budapest",
+      "e": "Debrecen"
+    },
+    "Q424": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Irlanda?",
+      "d": "Dublín",
+      "e": "Cork"
+    },
+    "Q425": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Islandia?",
+      "d": "Reikiavik",
+      "e": "Akureyri"
+    },
+    "Q426": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Italia?",
+      "d": "Roma",
+      "e": "Milán"
+    },
+    "Q427": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Kazajistán?",
+      "d": "Astaná",
+      "e": "Almatý"
+    },
+    "Q428": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Kosovo?",
+      "d": "Pristina",
+      "e": "Pec"
+    },
+    "Q429": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Letonia?",
+      "d": "Riga",
+      "e": "Jurmala"
+    },
+    "Q430": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Liechtenstein?",
+      "d": "Vaduz",
+      "e": "Schaan"
+    },
+    "Q431": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Lituania?",
+      "d": "Vilna",
+      "e": "Kaunas"
+    },
+    "Q432": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Luxemburgo?",
+      "d": "C. Luxemburgo",
+      "e": "Ettelbruck"
+    },
+    "Q433": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Malta?",
+      "d": "La Valeta",
+      "e": "Birkirkara"
+    },
+    "Q434": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Moldavia?",
+      "d": "Chisináu",
+      "e": "Bălți"
+    },
+    "Q435": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Mónaco?",
+      "d": "Mónaco",
+      "e": "La Condamine"
+    },
+    "Q436": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Montenegro?",
+      "d": "Podgorica",
+      "e": "Nikšić"
+    },
+    "Q437": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de P. Bajos?",
+      "d": "Ámsterdam",
+      "e": "Rotterdam"
+    },
+    "Q438": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Macedonia N?",
+      "d": "Skopie",
+      "e": "Bitola"
+    },
+    "Q439": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Noruega?",
+      "d": "Oslo",
+      "e": "Bergen"
+    },
+    "Q440": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Polonia?",
+      "d": "Varsovia",
+      "e": "Cracovia"
+    },
+    "Q441": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Portugal?",
+      "d": "Lisboa",
+      "e": "Oporto"
+    },
+    "Q442": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Rumanía?",
+      "d": "Bucarest",
+      "e": "Cluj-Napoca"
+    },
+    "Q443": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Albania?",
+      "d": "Tirana",
+      "e": "Durrës"
+    },
+    "Q444": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Andorra?",
+      "d": "A. la Vieja",
+      "e": "Escaldes-E"
+    },
+    "Q445": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Armenia?",
+      "d": "Ereván",
+      "e": "Gyumrí"
+    },
+    "Q446": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Austria?",
+      "d": "Viena",
+      "e": "Salzburgo"
+    },
+    "Q447": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Azerbaiyán?",
+      "d": "Bakú",
+      "e": "Ganja"
+    },
+    "Q448": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Bielorrusia?",
+      "d": "Minsk",
+      "e": "Gomel"
+    },
+    "Q449": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Bosnia H?",
+      "d": "Sarajevo",
+      "e": "Mostar"
+    },
+    "Q450": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Bulgaria?",
+      "d": "Sofía",
+      "e": "Plovdiv"
+    },
+    "Q451": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Chipre?",
+      "d": "Nicosia",
+      "e": "Limassol"
+    },
+    "Q452": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Croacia?",
+      "d": "Zagreb",
+      "e": "Dubrovnik"
+    },
+    "Q453": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Dinamarca?",
+      "d": "Copenhague",
+      "e": "Aarhus"
+    },
+    "Q454": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Eslovaquia?",
+      "d": "Bratislava",
+      "e": "Košice"
+    },
+    "Q455": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Eslovenia?",
+      "d": "Liubliana",
+      "e": "Maribor"
+    },
+    "Q456": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de España?",
+      "d": "Madrid",
+      "e": "Barcelona"
+    },
+    "Q457": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Estonia?",
+      "d": "Tallin",
+      "e": "Tartu"
+    },
+    "Q458": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Finlandia?",
+      "d": "Helsinki",
+      "e": "Turku"
+    },
+    "Q459": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Francia?",
+      "d": "París",
+      "e": "Marsella"
+    },
+    "Q460": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Georgia?",
+      "d": "Tiflis",
+      "e": "Batumi"
+    },
+    "Q461": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de G. Bretaña?",
+      "d": "Londres",
+      "e": "Manchester"
+    },
+    "Q462": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Grecia?",
+      "d": "Atenas",
+      "e": "Tesalónica"
+    },
+    "Q463": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Hungría?",
+      "d": "Budapest",
+      "e": "Debrecen"
+    },
+    "Q464": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Irlanda?",
+      "d": "Dublín",
+      "e": "Cork"
+    },
+    "Q465": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Islandia?",
+      "d": "Reikiavik",
+      "e": "Akureyri"
+    },
+    "Q466": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Italia?",
+      "d": "Roma",
+      "e": "Milán"
+    },
+    "Q467": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Kazajistán?",
+      "d": "Astaná",
+      "e": "Almatý"
+    },
+    "Q468": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Kosovo?",
+      "d": "Pristina",
+      "e": "Pec"
+    },
+    "Q469": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Letonia?",
+      "d": "Riga",
+      "e": "Jurmala"
+    },
+    "Q470": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Liechtenstein?",
+      "d": "Vaduz",
+      "e": "Schaan"
+    },
+    "Q471": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Lituania?",
+      "d": "Vilna",
+      "e": "Kaunas"
+    },
+    "Q472": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Luxemburgo?",
+      "d": "C. Luxemburgo",
+      "e": "Ettelbruck"
+    },
+    "Q473": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Malta?",
+      "d": "La Valeta",
+      "e": "Birkirkara"
+    },
+    "Q474": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Moldavia?",
+      "d": "Chisináu",
+      "e": "Bălți"
+    },
+    "Q475": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Mónaco?",
+      "d": "Mónaco",
+      "e": "La Condamine"
+    },
+    "Q476": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Montenegro?",
+      "d": "Podgorica",
+      "e": "Nikšić"
+    },
+    "Q477": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de P. Bajos?",
+      "d": "Ámsterdam",
+      "e": "Rotterdam"
+    },
+    "Q478": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Macedonia N?",
+      "d": "Skopie",
+      "e": "Bitola"
+    },
+    "Q479": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Noruega?",
+      "d": "Oslo",
+      "e": "Bergen"
+    },
+    "Q480": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Polonia?",
+      "d": "Varsovia",
+      "e": "Cracovia"
+    },
+    "Q481": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Portugal?",
+      "d": "Lisboa",
+      "e": "Oporto"
+    },
+    "Q482": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Rumanía?",
+      "d": "Bucarest",
+      "e": "Cluj-Napoca"
+    },
+    "Q483": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Albania?",
+      "d": "Tirana",
+      "e": "Durrës"
+    },
+    "Q484": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Bélgica?",
+      "d": "Bruselas",
+      "e": "Amberes"
+    },
+    "Q485": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Perro",
+      "d": "Canino",
+      "e": "Felino"
+    },
+    "Q486": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Belice?",
+      "d": "Belmopán",
+      "e": "C. de Belice"
+    },
+    "Q487": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Costa Rica?",
+      "d": "San José",
+      "e": "Alajuela"
+    },
+    "Q488": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de El Salvador?",
+      "d": "San Salvador",
+      "e": "Santa Ana"
+    },
+    "Q489": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Guatemala?",
+      "d": "C. de Guatemala",
+      "e": "A. Guatemala"
+    },
+    "Q490": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Honduras?",
+      "d": "Tegucigalpa",
+      "e": "S. Pedro Sula"
+    },
+    "Q491": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Nicaragua?",
+      "d": "Managua",
+      "e": "León"
+    },
+    "Q492": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Panamá?",
+      "d": "C. de Panamá",
+      "e": "Colón"
+    },
+    "Q493": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Ant. Barbuda?",
+      "d": "Saint John's",
+      "e": "Codrington"
+    },
+    "Q494": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Bahamas?",
+      "d": "Nassau",
+      "e": "Freeport"
+    },
+    "Q495": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Barbados?",
+      "d": "Bridgetown",
+      "e": "Holetown"
+    },
+    "Q496": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Cuba?",
+      "d": "La Habana",
+      "e": "S. de Cuba"
+    },
+    "Q497": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Dominica?",
+      "d": "Roseau",
+      "e": "Portsmouth"
+    },
+    "Q498": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de R.Dominicana?",
+      "d": "S. Domingo",
+      "e": "Santiago"
+    },
+    "Q499": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Granada?",
+      "d": "S. George's",
+      "e": "Gouyave"
+    },
+    "Q500": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Haití?",
+      "d": "P. Príncipe",
+      "e": "Cap-Haïtien"
+    },
+    "Q501": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Jamaica?",
+      "d": "Kingston",
+      "e": "Montego Bay"
+    },
+    "Q502": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de S. Cristóbal N.?",
+      "d": "Basseterre",
+      "e": "Charlestown"
+    },
+    "Q503": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de S. Lucía?",
+      "d": "Castries",
+      "e": "Soufrière"
+    },
+    "Q504": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de S. Vicente G?",
+      "d": "Kingstown",
+      "e": "Georgetown"
+    },
+    "Q505": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Tri-Tobago?",
+      "d": "P. España",
+      "e": "S. Fernando"
+    },
+    "Q506": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "¿Capital de Curazao?",
+      "d": "Willemstad",
+      "e": "Oranjestad"
+    },
+    "Q507": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Costa Rica?",
+      "d": "San José",
+      "e": "Alajuela"
+    },
+    "Q508": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de El Salvador?",
+      "d": "San Salvador",
+      "e": "Santa Ana"
+    },
+    "Q509": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Guatemala?",
+      "d": "C. de Guatemala",
+      "e": "A. Guatemala"
+    },
+    "Q510": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Honduras?",
+      "d": "Tegucigalpa",
+      "e": "S. Pedro Sula"
+    },
+    "Q511": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Nicaragua?",
+      "d": "Managua",
+      "e": "León"
+    },
+    "Q512": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Panamá?",
+      "d": "C. de Panamá",
+      "e": "Colón"
+    },
+    "Q513": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Ant. Barbuda?",
+      "d": "Saint John's",
+      "e": "Codrington"
+    },
+    "Q514": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Bahamas?",
+      "d": "Nassau",
+      "e": "Freeport"
+    },
+    "Q515": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Barbados?",
+      "d": "Bridgetown",
+      "e": "Holetown"
+    },
+    "Q516": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Cuba?",
+      "d": "La Habana",
+      "e": "S. de Cuba"
+    },
+    "Q517": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Dominica?",
+      "d": "Roseau",
+      "e": "Portsmouth"
+    },
+    "Q518": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de R.Dominicana?",
+      "d": "S. Domingo",
+      "e": "Santiago"
+    },
+    "Q519": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Granada?",
+      "d": "S. George's",
+      "e": "Gouyave"
+    },
+    "Q520": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Haití?",
+      "d": "P. Príncipe",
+      "e": "Cap-Haïtien"
+    },
+    "Q521": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Jamaica?",
+      "d": "Kingston",
+      "e": "Montego Bay"
+    },
+    "Q522": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de S. Cristóbal N.?",
+      "d": "Basseterre",
+      "e": "Charlestown"
+    },
+    "Q523": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de S. Lucía?",
+      "d": "Castries",
+      "e": "Soufrière"
+    },
+    "Q524": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de S. Vicente G?",
+      "d": "Kingstown",
+      "e": "Georgetown"
+    },
+    "Q525": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Tri-Tobago?",
+      "d": "P. España",
+      "e": "S. Fernando"
+    },
+    "Q526": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Curazao?",
+      "d": "Willemstad",
+      "e": "Oranjestad"
+    },
+    "Q527": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Belice?",
+      "d": "Belmopán",
+      "e": "C. de Belice"
+    },
+    "Q528": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Afganistán?",
+      "d": "Kabul",
+      "e": "Kandahar"
+    },
+    "Q529": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de A. Saudita?",
+      "d": "Riad",
+      "e": "Yeda"
+    },
+    "Q530": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Armenia?",
+      "d": "Ereván",
+      "e": "Gyumri"
+    },
+    "Q531": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Azerbaiyán?",
+      "d": "Bakú",
+      "e": "Ganja"
+    },
+    "Q532": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Bangladés?",
+      "d": "Daca",
+      "e": "Chittagong"
+    },
+    "Q533": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Baréin?",
+      "d": "Manama",
+      "e": "Riffa"
+    },
+    "Q534": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Bután?",
+      "d": "Thimphu",
+      "e": "Punakha"
+    },
+    "Q535": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Brunéi?",
+      "d": "Bandar Seri Begawan",
+      "e": "Kuala Belait"
+    },
+    "Q536": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Camboya?",
+      "d": "Nom Pen",
+      "e": "Siem Reap"
+    },
+    "Q537": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de China?",
+      "d": "Pekín",
+      "e": "Shanghái"
+    },
+    "Q538": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de C. del Norte?",
+      "d": "Pionyang",
+      "e": "Kaesong"
+    },
+    "Q539": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de C. del Sur?",
+      "d": "Seúl",
+      "e": "Busán"
+    },
+    "Q540": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Emiratos AU?",
+      "d": "Abu Dabi",
+      "e": "Dubái"
+    },
+    "Q541": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Filipinas?",
+      "d": "Manila",
+      "e": "Cebú"
+    },
+    "Q542": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Georgia?",
+      "d": "Tiflis",
+      "e": "Batumi"
+    },
+    "Q543": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de India?",
+      "d": "Nueva Delhi",
+      "e": "Bombay"
+    },
+    "Q544": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Indonesia?",
+      "d": "Yakarta",
+      "e": "Surabaya"
+    },
+    "Q545": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Irak?",
+      "d": "Bagdad",
+      "e": "Mosul"
+    },
+    "Q546": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Irán?",
+      "d": "Teherán",
+      "e": "Isfahán"
+    },
+    "Q547": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Israel?",
+      "d": "Jerusalén",
+      "e": "Tel Aviv"
+    },
+    "Q548": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Japón?",
+      "d": "Tokio",
+      "e": "Osaka"
+    },
+    "Q549": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Jordania?",
+      "d": "Ammán",
+      "e": "Zarqa"
+    },
+    "Q550": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "¿Capital de Kazajistán?",
+      "d": "Astaná",
+      "e": "Almatý"
     }
   }
 }

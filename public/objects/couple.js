@@ -220,7 +220,6 @@ class Couple extends Phaser.Scene {
   }
 
   getPointLife(point) {
-    debugger;
     const screenWidth = this.sys.game.config.width;
     const screenHeight = this.sys.game.config.height;
 
@@ -232,7 +231,7 @@ class Couple extends Phaser.Scene {
     this.pointLife1 =
       point == "+" && this.turn == 1
         ? this.pointLife1 + 1
-        : point == "-" && this.turn == 1
+        : point == "-" && this.turn == 1 && this.pointLife1 > 0
         ? this.pointLife1 - 1
         : this.pointLife1;
 
@@ -259,13 +258,16 @@ class Couple extends Phaser.Scene {
         (modalY + modalHeight / 2) * (ENV.VERSUS == "CPU" ? 0.15 : 0.07),
         point == null ||
           ENV.VERSUS == "CPU" ||
-          (this.turn == 1 && point == "+") ||
-          (this.turn == 2 && point == "-")
+          (this.turn == 1 &&
+            (point == "+" ||
+              (point == "-" && this.pointLife1 > 0 && this.pointLife2 < 1))) ||
+          (this.turn == 2 && point == "-" && this.pointLife1 > 0)
           ? "LP"
           : "LPG"
       )
       .setOrigin(0.5)
       .setScale(0.5);
+
     this.score1 = this.add
       .text(
         (modalX + modalWidth / 2) * 0.51,
@@ -275,7 +277,7 @@ class Couple extends Phaser.Scene {
       )
       .setOrigin(0.5);
 
-    if (this.pointLife1 == 0) {
+    if (this.pointLife1 == 0 && this.pointLife2 == 0) {
       this.modal = this.scene.get("Modal");
       this.eventTimer.destroy();
       this.hiddenCards();
@@ -293,7 +295,7 @@ class Couple extends Phaser.Scene {
       this.pointLife2 =
         point == "+" && this.turn == 2
           ? this.pointLife2 + 1
-          : point == "-" && this.turn == 2
+          : point == "-" && this.turn == 2 && this.pointLife2 > 0
           ? this.pointLife2 - 1
           : this.pointLife2;
 
@@ -318,12 +320,16 @@ class Couple extends Phaser.Scene {
         .image(
           (modalX + modalWidth / 2) * 0.35,
           (modalY + modalHeight / 2) * 0.15,
-          (this.turn == 2 && point == "+") || (this.turn == 1 && point == "-")
+          (this.turn == 2 &&
+            (point == "+" ||
+              (point == "-" && this.pointLife2 > 0 && this.pointLife1 < 1))) ||
+            (this.turn == 1 && point == "-" && this.pointLife2 > 0)
             ? "LP"
             : "LPG"
         )
         .setOrigin(0.5)
         .setScale(0.5);
+
       this.score2 = this.add
         .text(
           (modalX + modalWidth / 2) * 0.51,
@@ -333,7 +339,7 @@ class Couple extends Phaser.Scene {
         )
         .setOrigin(0.5);
 
-      if (this.pointLife2 == 0) {
+      if (this.pointLife1 == 0 && this.pointLife2 == 0) {
         this.modal = this.scene.get("Modal");
         this.eventTimer.destroy();
         this.hiddenCards();
@@ -346,10 +352,33 @@ class Couple extends Phaser.Scene {
         });
       }
     }
-    debugger;
-    if (ENV.VERSUS == "2P" && point != null)
+
+    if (ENV.VERSUS == "2P" && point != null) {
       this.turn =
-        point == "+" ? this.turn : point == "-" && this.turn == 1 ? 2 : 1;
+        point == "+"
+          ? this.turn
+          : point == "-" &&
+            this.turn == 1 &&
+            this.pointLife1 >= 0 &&
+            this.pointLife2 > 0
+          ? 2
+          : point == "-" &&
+            this.turn == 2 &&
+            this.pointLife1 > 0 &&
+            this.pointLife2 >= 0
+          ? 1
+          : point == "-" &&
+            this.turn == 1 &&
+            this.pointLife1 > 0 &&
+            this.pointLife2 < 1
+          ? 1
+          : point == "-" &&
+            this.turn == 2 &&
+            this.pointLife1 < 1 &&
+            this.pointLife2 > 0
+          ? 2
+          : 1;
+    }
   }
 
   hiddenCards() {

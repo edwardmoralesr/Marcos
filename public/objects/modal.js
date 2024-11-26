@@ -23,7 +23,7 @@ class Modal extends Phaser.Scene {
         modalX * 1 + modalWidth / 2,
         (modalY + modalHeight / 2) * 1.08,
         modalHeight * 0.93,
-        modalWidth * 1.2,
+        modalWidth * 2.2,
         0x000,
         0.5
       );
@@ -32,61 +32,53 @@ class Modal extends Phaser.Scene {
         modalX + modalWidth / 2,
         (modalY + modalHeight / 2) * 1.08,
         modalHeight * 0.9,
-        modalWidth * 1.14,
+        modalWidth * 2.1,
         0x000
       );
 
       pScene.modalText = pScene.add
         .text(
           modalX + modalWidth / 2,
-          (modalY + modalHeight / 2) * 0.9,
+          (modalY + modalHeight / 2) * 0.63,
           pScene.infoModal.msj,
           { fontStyle: "bolder", fontSize: "26.7px", fill: ENV.FONT_COLOR }
         )
         .setOrigin(0.5);
 
-      pScene.confirmModalButton = pScene.add
+      pScene.modalInfo = pScene.add.text(
+        (modalX + modalWidth / 2) * 0.32,
+        (modalY + modalHeight / 2) * 0.75,
+        ENV.WORLD == "couple"
+          ? "Encuentra la\n\npareja de\n\ncada Michi\n\ny cada letra\n\nen el menor tiempo posible.\n\n\nPara dos jugadores gana el\n\nque encuentre el último par."
+          : ENV.WORLD == "sleeper"
+          ? "Marcos quiere jugar toda la\n\nnoche sin despertarnos.\n\nResponde bien cada pregunta\n\n             y ZZzZZZzZz\n\n             profundamente.\n\n\n             Mejora tu score\n\n             en poco tiempo."
+          : 1,
+        { fontStyle: "bolder", fontSize: "19px", fill: ENV.FONT_COLOR }
+      );
+
+      pScene.modalImage = pScene.add
         .image(
-          modalX + modalWidth / 2 - modalX * 0.85,
-          modalY + modalHeight * 0.64,
-          "sleeper"
+          ENV.WORLD == "couple"
+            ? modalX + modalWidth / 2 + modalX * 0.75
+            : ENV.WORLD == "sleeper"
+            ? modalX + modalWidth / 2 - modalX * 0.71
+            : 1,
+
+          ENV.WORLD == "couple"
+            ? (modalY + modalHeight) * 0.6
+            : ENV.WORLD == "sleeper"
+            ? (modalY + modalHeight) * 0.79
+            : 1,
+          ENV.WORLD
         )
         .setScale(0.22)
         .setOrigin(0.5)
-        .setInteractive()
-        .on("pointerdown", () => {
-          pScene.modalBackground.setVisible(false);
-          pScene.modalFrame.setVisible(false);
-          pScene.modalText.setVisible(false);
-          pScene.confirmModalButton.setVisible(false);
-          pScene.closeModalButton.setVisible(false);
-
-          resolve("sleeper");
-        });
-
-      pScene.closeModalButton = pScene.add
-        .image(
-          modalX + modalWidth / 2 + modalX * 0.85,
-          modalY + modalHeight * 0.64,
-          "couple"
-        )
-        .setScale(0.22)
-        .setOrigin(0.5)
-        .setInteractive()
-        .on("pointerdown", () => {
-          pScene.modalBackground.setVisible(false);
-          pScene.modalFrame.setVisible(false);
-          pScene.modalText.setVisible(false);
-          pScene.confirmModalButton.setVisible(false);
-          pScene.closeModalButton.setVisible(false);
-
-          resolve("couple");
-        });
+        .setInteractive();
 
       pScene.backModalButton = pScene.add
         .text(
           modalX + modalWidth / 2 + modalX * 1.6,
-          modalY + modalHeight * 0.33,
+          modalY + modalHeight * 0.1,
           pScene.infoModal.back,
           { fontStyle: "bolder", fontSize: "27px", fill: ENV.FONT_COLOR }
         )
@@ -96,10 +88,81 @@ class Modal extends Phaser.Scene {
           pScene.modalBackground.setVisible(false);
           pScene.modalFrame.setVisible(false);
           pScene.modalText.setVisible(false);
-          pScene.confirmModalButton.setVisible(false);
-          pScene.closeModalButton.setVisible(false);
-
+          pScene.modalInfo.setVisible(false);
+          pScene.modalImage.setVisible(false);
+          pScene.rightModalButton.setVisible(false);
+          pScene.leftModalButton.setVisible(false);
+          pScene.playModalButton.setVisible(false);
+          ENV.WORLD = "sleeper";
           resolve("back");
+        });
+
+      pScene.rightModalButton = pScene.add
+        .text(
+          modalX + modalWidth / 2 + modalX * 1.6,
+          modalY + modalHeight * 0.53,
+          ">",
+          { fontStyle: "bolder", fontSize: "37px", fill: ENV.FONT_COLOR }
+        )
+        .setOrigin(0.5)
+        .setInteractive()
+        .on("pointerdown", () => {
+          ENV.WORLD = ENV.WORLD == "couple" ? "sleeper" : "couple";
+          pScene.modalBackground.setVisible(false);
+          pScene.modalFrame.setVisible(false);
+          pScene.modalText.setVisible(false);
+          pScene.modalInfo.setVisible(false);
+          pScene.modalImage.setVisible(false);
+          pScene.rightModalButton.setVisible(false);
+          pScene.leftModalButton.setVisible(false);
+          pScene.playModalButton.setVisible(false);
+
+          resolve("next");
+        });
+
+      pScene.leftModalButton = pScene.add
+        .text(
+          modalX + modalWidth / 2 + modalX * -1.6,
+          modalY + modalHeight * 0.53,
+          "<",
+          { fontStyle: "bolder", fontSize: "37px", fill: ENV.FONT_COLOR }
+        )
+        .setOrigin(0.5)
+        .setInteractive()
+        .on("pointerdown", () => {
+          ENV.WORLD = ENV.WORLD == "couple" ? "sleeper" : "couple";
+          pScene.modalBackground.setVisible(false);
+          pScene.modalFrame.setVisible(false);
+          pScene.modalText.setVisible(false);
+          pScene.modalInfo.setVisible(false);
+          pScene.modalImage.setVisible(false);
+          pScene.rightModalButton.setVisible(false);
+          pScene.leftModalButton.setVisible(false);
+          pScene.playModalButton.setVisible(false);
+
+          resolve("next");
+        });
+
+      pScene.playModalButton = pScene.add
+        .image(modalX + modalWidth / 2, modalY + modalHeight * 1, "playNow", {
+          fontStyle: "bolder",
+          fontSize: "27px",
+          fill: ENV.FONT_COLOR,
+        })
+        .setScale(0.44)
+        .setOrigin(0.5)
+        .setInteractive()
+        .on("pointerdown", () => {
+          pScene.modalBackground.setVisible(false);
+          pScene.modalFrame.setVisible(false);
+          pScene.modalText.setVisible(false);
+          pScene.modalInfo.setVisible(false);
+          pScene.modalImage.setVisible(false);
+          pScene.rightModalButton.setVisible(false);
+          pScene.leftModalButton.setVisible(false);
+          pScene.playModalButton.setVisible(false);
+
+          resolve(ENV.WORLD);
         });
     });
   }

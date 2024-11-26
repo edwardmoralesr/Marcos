@@ -23,6 +23,7 @@ class Home extends Phaser.Scene {
 
     this.load.image("sleeper", "/assets/images/Trivia.png");
     this.load.image("couple", "/assets/images/Pares.png");
+    this.load.image("playNow", "/assets/images/Jugar_p.png");
 
     this.load.image("marcos0r", "/assets/images/Marcos Right 0.png");
     this.load.image("marcos1r", "/assets/images/Marcos Right 1.png");
@@ -42,6 +43,7 @@ class Home extends Phaser.Scene {
       this.soundHome.stop();
     }
 
+    ENV.WORLD = "sleeper";
     ENV.VERSUS = "CPU";
 
     var imageGroup = this.add.group();
@@ -98,6 +100,9 @@ class Home extends Phaser.Scene {
           case "couple":
             this.soundHome.stop();
             now.scene.switch("Couple");
+            break;
+          case "next":
+            this.play.emit("pointerdown");
             break;
           default:
             break;
