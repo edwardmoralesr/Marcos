@@ -52,6 +52,10 @@ class Modal extends Phaser.Scene {
           ? "Encuentra la\n\npareja de\n\ncada Michi\n\ny cada letra\n\nen el menor tiempo posible.\n\n\nPara dos jugadores gana el\n\nque encuentre el último par."
           : ENV.WORLD == "sleeper"
           ? "Marcos quiere jugar toda la\n\nnoche sin despertarnos.\n\nResponde bien cada pregunta\n\n             y ZZzZZZzZz\n\n             profundamente.\n\n\n             Mejora tu score\n\n             en poco tiempo."
+          : ENV.WORLD == "vet"
+          ? "Marcos se dividió en dos\n\nde camino al Veterinario.\n\nBloquea el paso para darles\n\nsu vitamina.\n\nSelecciona una\n\nvitamina para\n\nmoverla a una\n\nposición libre entre líneas."
+          : ENV.WORLD == "xhulu"
+          ? "             Xhulu es el\n\n             postre favori-\n\n             to de Marcos.\n\n             Apuesta contra\n\nél por travieso. 1,2,3,4 de-\n\nposita $$$, 5 envía $$$ a 6\n\ny 6 envía $$$ al pozo. Gana\n\nquien deje al rival sin $$$."
           : 1,
         { fontStyle: "bolder", fontSize: "19px", fill: ENV.FONT_COLOR }
       );
@@ -62,12 +66,20 @@ class Modal extends Phaser.Scene {
             ? modalX + modalWidth / 2 + modalX * 0.75
             : ENV.WORLD == "sleeper"
             ? modalX + modalWidth / 2 - modalX * 0.71
+            : ENV.WORLD == "vet"
+            ? modalX + modalWidth / 2 + modalX * 0.9
+            : ENV.WORLD == "xhulu"
+            ? modalX + modalWidth / 2 - modalX * 0.71
             : 1,
 
           ENV.WORLD == "couple"
             ? (modalY + modalHeight) * 0.6
             : ENV.WORLD == "sleeper"
             ? (modalY + modalHeight) * 0.79
+            : ENV.WORLD == "vet"
+            ? (modalY + modalHeight) * 0.78
+            : ENV.WORLD == "xhulu"
+            ? (modalY + modalHeight) * 0.6
             : 1,
           ENV.WORLD
         )
@@ -99,15 +111,15 @@ class Modal extends Phaser.Scene {
 
       pScene.rightModalButton = pScene.add
         .text(
-          modalX + modalWidth / 2 + modalX * 1.6,
-          modalY + modalHeight * 0.53,
+          modalX + modalWidth / 2 + modalX * 1.4,
+          modalY + modalHeight * 0.99,
           ">",
           { fontStyle: "bolder", fontSize: "37px", fill: ENV.FONT_COLOR }
         )
         .setOrigin(0.5)
         .setInteractive()
         .on("pointerdown", () => {
-          ENV.WORLD = ENV.WORLD == "couple" ? "sleeper" : "couple";
+          this.getWorldMenu("R");
           pScene.modalBackground.setVisible(false);
           pScene.modalFrame.setVisible(false);
           pScene.modalText.setVisible(false);
@@ -122,15 +134,15 @@ class Modal extends Phaser.Scene {
 
       pScene.leftModalButton = pScene.add
         .text(
-          modalX + modalWidth / 2 + modalX * -1.6,
-          modalY + modalHeight * 0.53,
+          modalX + modalWidth / 2 + modalX * -1.4,
+          modalY + modalHeight * 0.99,
           "<",
           { fontStyle: "bolder", fontSize: "37px", fill: ENV.FONT_COLOR }
         )
         .setOrigin(0.5)
         .setInteractive()
         .on("pointerdown", () => {
-          ENV.WORLD = ENV.WORLD == "couple" ? "sleeper" : "couple";
+          this.getWorldMenu("L");
           pScene.modalBackground.setVisible(false);
           pScene.modalFrame.setVisible(false);
           pScene.modalText.setVisible(false);
@@ -165,6 +177,24 @@ class Modal extends Phaser.Scene {
           resolve(ENV.WORLD);
         });
     });
+  }
+
+  getWorldMenu(nav) {
+    debugger;
+    switch (ENV.WORLD) {
+      case "sleeper":
+        ENV.WORLD = nav == "R" ? "couple" : "xhulu";
+        break;
+      case "couple":
+        ENV.WORLD = nav == "R" ? "vet" : "sleeper";
+        break;
+      case "vet":
+        ENV.WORLD = nav == "R" ? "xhulu" : "couple";
+        break;
+      case "xhulu":
+        ENV.WORLD = nav == "R" ? "sleeper" : "vet";
+        break;
+    }
   }
 
   getDefaultModal(now) {

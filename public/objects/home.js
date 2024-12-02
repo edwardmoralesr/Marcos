@@ -23,6 +23,8 @@ class Home extends Phaser.Scene {
 
     this.load.image("sleeper", "/assets/images/Trivia.png");
     this.load.image("couple", "/assets/images/Pares.png");
+    this.load.image("vet", "/assets/images/Vet.png");
+    this.load.image("xhulu", "/assets/images/Xhulu.png");
     this.load.image("playNow", "/assets/images/Jugar_p.png");
 
     this.load.image("marcos0r", "/assets/images/Marcos Right 0.png");
@@ -100,6 +102,14 @@ class Home extends Phaser.Scene {
           case "couple":
             this.soundHome.stop();
             now.scene.switch("Couple");
+            break;
+          case "vet":
+            this.soundHome.stop();
+            now.scene.switch("Vet");
+            break;
+          case "xhulu":
+            this.soundHome.stop();
+            now.scene.switch("Xhulu");
             break;
           case "next":
             this.play.emit("pointerdown");

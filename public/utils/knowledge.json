@@ -1158,9 +1158,9 @@
     "Q166": {
       "a": "E",
       "b": "Sleeper",
-      "c": "Cielo en un día soleado",
-      "d": "Azul",
-      "e": "Rojo"
+      "c": "Carga eléctrica electrón",
+      "d": "Negativa",
+      "e": "Positiva"
     },
     "Q167": {
       "a": "N",
@@ -1592,7 +1592,7 @@
     "Q228": {
       "a": "E",
       "b": "Sleeper",
-      "c": "Tentáculos del pulpo",
+      "c": "Tentáculos de un pulpo",
       "d": "Ocho",
       "e": "Seis"
     },
@@ -1655,14 +1655,14 @@
     "Q237": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1930",
+      "c": "Sede Mundial Fútbol 1930",
       "d": "Uruguay",
       "e": "Argentina"
     },
     "Q238": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1930",
+      "c": "Sede Mundial Fútbol 1930",
       "d": "Uruguay",
       "e": "Argentina"
     },
@@ -1683,14 +1683,14 @@
     "Q241": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1934",
+      "c": "Sede Mundial Fútbol 1934",
       "d": "Italia",
       "e": "Argentina"
     },
     "Q242": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1934",
+      "c": "Sede Mundial Fútbol 1934",
       "d": "Italia",
       "e": "Argentina"
     },
@@ -1711,14 +1711,14 @@
     "Q245": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1938",
+      "c": "Sede Mundial Fútbol 1938",
       "d": "Francia",
       "e": "Brasil"
     },
     "Q246": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1938",
+      "c": "Sede Mundial Fútbol 1938",
       "d": "Francia",
       "e": "Brasil"
     },
@@ -1739,14 +1739,14 @@
     "Q249": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1950",
+      "c": "Sede Mundial Fútbol 1950",
       "d": "Brasil",
       "e": "Uruguay"
     },
     "Q250": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1950",
+      "c": "Sede Mundial Fútbol 1950",
       "d": "Brasil",
       "e": "Uruguay"
     },
@@ -1767,14 +1767,14 @@
     "Q253": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1954",
+      "c": "Sede Mundial Fútbol 1954",
       "d": "Suiza",
       "e": "Suecia"
     },
     "Q254": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1954",
+      "c": "Sede Mundial Fútbol 1954",
       "d": "Suiza",
       "e": "Suecia"
     },
@@ -1795,14 +1795,14 @@
     "Q257": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1958",
+      "c": "Sede Mundial Fútbol 1958",
       "d": "Suecia",
       "e": "Brasil"
     },
     "Q258": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1958",
+      "c": "Sede Mundial Fútbol 1958",
       "d": "Suecia",
       "e": "Brasil"
     },
@@ -1823,14 +1823,14 @@
     "Q261": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1962",
+      "c": "Sede Mundial Fútbol 1962",
       "d": "Chile",
       "e": "Inglaterra"
     },
     "Q262": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1962",
+      "c": "Sede Mundial Fútbol 1962",
       "d": "Chile",
       "e": "Inglaterra"
     },
@@ -1851,14 +1851,14 @@
     "Q265": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1966",
+      "c": "Sede Mundial Fútbol 1966",
       "d": "Inglaterra",
       "e": "Alemania"
     },
     "Q266": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1966",
+      "c": "Sede Mundial Fútbol 1966",
       "d": "Inglaterra",
       "e": "Alemania"
     },
@@ -1879,14 +1879,14 @@
     "Q269": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1970",
+      "c": "Sede Mundial Fútbol 1970",
       "d": "México",
       "e": "Brasil"
     },
     "Q270": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1970",
+      "c": "Sede Mundial Fútbol 1970",
       "d": "México",
       "e": "Brasil"
     },
@@ -1907,14 +1907,14 @@
     "Q273": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1974",
+      "c": "Sede Mundial Fútbol 1974",
       "d": "Alemania",
       "e": "España"
     },
     "Q274": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1974",
+      "c": "Sede Mundial Fútbol 1974",
       "d": "Alemania",
       "e": "España"
     },
@@ -1935,14 +1935,14 @@
     "Q277": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1978",
+      "c": "Sede Mundial Fútbol 1978",
       "d": "Argentina",
       "e": "Alemania"
     },
     "Q278": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1978",
+      "c": "Sede Mundial Fútbol 1978",
       "d": "Argentina",
       "e": "Alemania"
     },
@@ -1963,14 +1963,14 @@
     "Q281": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1982",
+      "c": "Sede Mundial Fútbol 1982",
       "d": "España",
       "e": "Italia"
     },
     "Q282": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1982",
+      "c": "Sede Mundial Fútbol 1982",
       "d": "España",
       "e": "Italia"
     },
@@ -1991,14 +1991,14 @@
     "Q285": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1986",
+      "c": "Sede Mundial Fútbol 1986",
       "d": "México",
       "e": "Italia"
     },
     "Q286": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1986",
+      "c": "Sede Mundial Fútbol 1986",
       "d": "México",
       "e": "Italia"
     },
@@ -2019,14 +2019,14 @@
     "Q289": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1990",
+      "c": "Sede Mundial Fútbol 1990",
       "d": "Italia",
       "e": "E.E.U.U"
     },
     "Q290": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1990",
+      "c": "Sede Mundial Fútbol 1990",
       "d": "Italia",
       "e": "E.E.U.U"
     },
@@ -2047,14 +2047,14 @@
     "Q293": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1994",
+      "c": "Sede Mundial Fútbol 1994",
       "d": "E.E.U.U",
       "e": "Francia"
     },
     "Q294": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1994",
+      "c": "Sede Mundial Fútbol 1994",
       "d": "E.E.U.U",
       "e": "Francia"
     },
@@ -2075,14 +2075,14 @@
     "Q297": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 1998",
+      "c": "Sede Mundial Fútbol 1998",
       "d": "Francia",
       "e": "Brasil"
     },
     "Q298": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 1998",
+      "c": "Sede Mundial Fútbol 1998",
       "d": "Francia",
       "e": "Brasil"
     },
@@ -2110,21 +2110,21 @@
     "Q302": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 2002",
+      "c": "Sede Mundial Fútbol 2002",
       "d": "K.-Japón",
       "e": "Alemania"
     },
     "Q303": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 2002",
+      "c": "Sede Mundial Fútbol 2002",
       "d": "K.-Japón",
       "e": "Alemania"
     },
     "Q304": {
       "a": "E",
       "b": "Sleeper",
-      "c": "Sede Mundial 2002",
+      "c": "Sede Mundial Fútbol 2002",
       "d": "K.-Japón",
       "e": "Alemania"
     },
@@ -2152,21 +2152,21 @@
     "Q308": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 2006",
+      "c": "Sede Mundial Fútbol 2006",
       "d": "Alemania",
       "e": "K.-Japón"
     },
     "Q309": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 2006",
+      "c": "Sede Mundial Fútbol 2006",
       "d": "Alemania",
       "e": "K.-Japón"
     },
     "Q310": {
       "a": "E",
       "b": "Sleeper",
-      "c": "Sede Mundial 2006",
+      "c": "Sede Mundial Fútbol 2006",
       "d": "Alemania",
       "e": "K.-Japón"
     },
@@ -2194,21 +2194,21 @@
     "Q314": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 2010",
+      "c": "Sede Mundial Fútbol 2010",
       "d": "Sudáfrica",
       "e": "Brasil"
     },
     "Q315": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 2010",
+      "c": "Sede Mundial Fútbol 2010",
       "d": "Sudáfrica",
       "e": "Brasil"
     },
     "Q316": {
       "a": "E",
       "b": "Sleeper",
-      "c": "Sede Mundial 2010",
+      "c": "Sede Mundial Fútbol 2010",
       "d": "Sudáfrica",
       "e": "Brasil"
     },
@@ -2236,21 +2236,21 @@
     "Q320": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 2014",
+      "c": "Sede Mundial Fútbol 2014",
       "d": "Brasil",
       "e": "Sudáfrica"
     },
     "Q321": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 2014",
+      "c": "Sede Mundial Fútbol 2014",
       "d": "Brasil",
       "e": "Sudáfrica"
     },
     "Q322": {
       "a": "E",
       "b": "Sleeper",
-      "c": "Sede Mundial 2014",
+      "c": "Sede Mundial Fútbol 2014",
       "d": "Brasil",
       "e": "Sudáfrica"
     },
@@ -2278,21 +2278,21 @@
     "Q326": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 2018",
+      "c": "Sede Mundial Fútbol 2018",
       "d": "Rusia",
       "e": "Qatar"
     },
     "Q327": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 2018",
+      "c": "Sede Mundial Fútbol 2018",
       "d": "Rusia",
       "e": "Qatar"
     },
     "Q328": {
       "a": "E",
       "b": "Sleeper",
-      "c": "Sede Mundial 2018",
+      "c": "Sede Mundial Fútbol 2018",
       "d": "Rusia",
       "e": "Qatar"
     },
@@ -2320,21 +2320,21 @@
     "Q332": {
       "a": "N",
       "b": "Sleeper",
-      "c": "Sede Mundial 2022",
+      "c": "Sede Mundial Fútbol 2022",
       "d": "Qatar",
       "e": "Rusia"
     },
     "Q333": {
       "a": "H",
       "b": "Sleeper",
-      "c": "Sede Mundial 2022",
+      "c": "Sede Mundial Fútbol 2022",
       "d": "Qatar",
       "e": "Rusia"
     },
     "Q334": {
       "a": "E",
       "b": "Sleeper",
-      "c": "Sede Mundial 2022",
+      "c": "Sede Mundial Fútbol 2022",
       "d": "Qatar",
       "e": "Rusia"
     },
@@ -3849,6 +3849,41 @@
       "c": "¿Capital de Kazajistán?",
       "d": "Astaná",
       "e": "Almatý"
+    },
+    "Q551": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Carga eléctrica electrón",
+      "d": "Negativa",
+      "e": "Positiva"
+    },
+    "Q552": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Carga eléctrica electrón",
+      "d": "Negativa",
+      "e": "Positiva"
+    },
+    "Q553": {
+      "a": "N",
+      "b": "Sleeper",
+      "c": "Carga eléctrica protón",
+      "d": "Positiva",
+      "e": "Negativa"
+    },
+    "Q554": {
+      "a": "H",
+      "b": "Sleeper",
+      "c": "Carga eléctrica protón",
+      "d": "Positiva",
+      "e": "Negativa"
+    },
+    "Q555": {
+      "a": "E",
+      "b": "Sleeper",
+      "c": "Carga eléctrica protón",
+      "d": "Positiva",
+      "e": "Negativa"
     }
   }
 }
